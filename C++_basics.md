@@ -47,5 +47,7 @@ List initialization using {} are more common. Have the benefit to disallow narro
 
 
 ```cpp
+std::cout << "hello there" << name;
+std::cin >> variable_name;
 
 ```
