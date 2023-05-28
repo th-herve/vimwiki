@@ -6,11 +6,8 @@
 - [Naming_convention](c++_convention)
 - [Basics](C++_basics)
 - [Operators](c++_operators)
-- [Preprocessor](C++_preprocessor)
-- [Compiler](g++ compiler)
-- [Header file](C++_header_file)
-
-- [c++_variable](c++_variable)
+- [Variable](c++_variable)
+- [Conditional statements][c++_conditional_statements]
 
 ## == Library ==
 
@@ -18,3 +15,13 @@
 - [<string>](c++_string)
 
 ## == c++ ==
+
+- [Reference](c++_reference)
+- [Pointer](c++_pointer)
+
+## == other ==
+
+- [Preprocessor](C++_preprocessor)
+- [Compiler](g++ compiler)
+- [Header file](C++_header_file)
+
