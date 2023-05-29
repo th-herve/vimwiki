@@ -1,8 +1,9 @@
-# === 1 ===
+
+# === Cs61 intro ===
 
 Computer execute machine language(or instruction): 0 and 1
 
-Assembly language: each instruction is identified by a abbrevation ex: mov al, 061h  
+Assembly language: each instruction is identified by a abbrevation 
 A program called assembler, translate it in machine language.
 
 High level language such as C/C++, must be transormed. This is done with `compiling` and `interpreting`
