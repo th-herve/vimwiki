@@ -19,10 +19,10 @@ Exemple:
 
 ## Flags
 
-| Flag   | Do  |
-| ------ | --- |
-| -Verb  |     |
-| -Nouns |     |
+| Flag   | Do |
+|--------|----|
+| -Verb  |    |
+| -Nouns |    |
 
 # variable
 
@@ -81,13 +81,13 @@ $variable.GetType().Name
 ## Comparison operators
 
 | operator | meaning          |
-| -------- | ---------------- |
+|----------|------------------|
 | `-eq`    | equal            |
-| `-ne`     | not equal        |
-| `-gt`     | greater than     |
-| `-lt`     | lower than       |
-| `-ge`     | greater or equal |
-| `-le`     | lower or equal   |
+| `-ne`    | not equal        |
+| `-gt`    | greater than     |
+| `-lt`    | lower than       |
+| `-ge`    | greater or equal |
+| `-le`    | lower or equal   |
 
 ```powershell
 $my_num = 5

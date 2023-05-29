@@ -25,7 +25,6 @@ public void DoSomething(int myParameter)
 ```
 ## summary
 
-|--------------------|---------------------|----------------|
 | type               | format              | exemple        |
 |--------------------|---------------------|----------------|
 | function           | PacalCase           | MyFunction     |
@@ -34,8 +33,6 @@ public void DoSomething(int myParameter)
 | properties         | PacalCase           | PropertiesName |
 | event              | PacalCase           | EventName      |
 | fields             | camelCase           | EventName      |
-|--------------------|---------------------|----------------|
-
 
 # Indentation:
 

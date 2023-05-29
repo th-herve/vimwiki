@@ -12,6 +12,5 @@
 ## Linux
 
 - [Manage drive](linux_manage_drive)
-- [Manage peripheral](linux_manage_peripheral)
-- [linux_backups](linux_backups)
 - [Manage peripheral](linux_manage_peripherals)
+- [linux_backups](linux_backups)

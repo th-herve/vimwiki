@@ -107,9 +107,9 @@ The outer pipes (|) are optional, and you don't need to make the raw Markdown li
 
 ```markdown
 | Heading 1 | Heading 2 | Heading 3 |
-|---|---|---|
-| col1 | col2 | col3 |
-| col1 | col2 | col3 |
+|-----------|-----------|-----------|
+| col1      | col2      | col3      |
+| col1      | col2      | col3      |
 ```
 
 ### Task list

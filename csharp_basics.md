@@ -150,7 +150,7 @@ string ternary = isRaining ? "Umbrella" : "No Umbrella";
 # Variable and types
 
 | Data Type | Description             | Memory Size  |
-| --------- | ----------------------- | ------------ |
+|-----------|-------------------------|--------------|
 | `bool`    | Boolean                 | 1 byte       |
 | `byte`    | Byte                    | 1 byte       |
 | `sbyte`   | Short Byte              | 1 byte       |

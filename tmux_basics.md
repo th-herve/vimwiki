@@ -16,7 +16,6 @@
 
 # Sessions
 
-|-------------|-----------------------|
 | command     | action                |
 |-------------|-----------------------|
 | `<Pr>:new`  | new session           |
@@ -27,7 +26,6 @@
 
 # Windows
 
-|-----------|----------------------------|
 | Keybind   | Action                     |
 |-----------|----------------------------|
 | `<Pr>$ c` | Create new window          |
@@ -42,7 +40,6 @@
 
 # Pane
 
-|-------------|---------------------------------------------------------------|
 | Keybind     | Action                                                        |
 |-------------|---------------------------------------------------------------|
 | `<Pr>%`     | Vertical split                                                |
@@ -72,7 +69,6 @@ Copy mode allows to copy inside the current buffer with most vim keys.
 
 ## Resizing panes
 
-|------------------------------------|---------------------------------------------------|
 | Command                            | Description                                       |
 | ---------------------------------- | ------------------------------------------------- |
 | resize-pane -D ##                  | Resize the current pane down by ## lines.         |
@@ -85,7 +81,6 @@ Copy mode allows to copy inside the current buffer with most vim keys.
 
 # Other
 
-|---------|---------------|
 | keybind | action        |
 |---------|---------------|
 | `<Pr>d` | detach        |

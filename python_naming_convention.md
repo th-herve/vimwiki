@@ -2,7 +2,7 @@
 # === Python naming convention ===
 
 >note: not universal
-|--------------------------------------------|-----------------------------------------|--------------------------------|
+ 
 | Entity                                     | Naming Convention                       | Example                        |
 |--------------------------------------------|-----------------------------------------|--------------------------------|
 | Variable                                   | Snake Case                              | my_variable                    |
@@ -12,4 +12,3 @@
 | Variable/Method intended for internal use  | Single Leading Underscore               | _my_variable, _my_function()   |
 | Variable/Method intended for name mangling | Double Leading Underscore               | __my_variable, __my_function() |
 | Special Method/Attribute                   | Double Leading and Trailing Underscores | __init__(), __len__()          |
-|--------------------------------------------|-----------------------------------------|--------------------------------|
