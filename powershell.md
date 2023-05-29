@@ -3,9 +3,9 @@
 - [Customize PowerShell](customize_powershell)
 
 ## == PowerShell script ==
-- [PowerShell basics](PowerShell basics)
-- [PowerShell control flow](PowerShell control flow)
-- [PowerShell command list](PowerShell command list)
-- [PowerShell environment variable](PowerShell environment variable)
-- [PowerShell object_array](PowerShell object_array)
-- [PowerShell json manipulation](PowerShell json manipulation)
+- [PowerShell basics](powershell_basics)
+- [PowerShell control flow](powershell_control_flow)
+- [PowerShell command list](powershell_command_list)
+- [PowerShell environment variable](powershell_environment_variable)
+- [PowerShell object_array](powershell_object_array)
+- [PowerShell json manipulation](powershell_json_manipulation)

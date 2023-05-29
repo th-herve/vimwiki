@@ -2,15 +2,15 @@
 
 # == Basics ==
 
-- [Csharp basics](Csharp_basics)
-- [Csharp convention](Csharp convention)
-- [Csharp methods](Csharp methods)
-- [Csharp string methods](Csharp string methods)
+- [Csharp basics](csharp_basics)
+- [Csharp convention](csharp_convention)
+- [Csharp methods](csharp_methods)
+- [Csharp string methods](csharp_string_methods)
 
 # == Class ==
 
-- [Csharp classes](Csharp classes)
-- [Csharp interfaces](Csharp interfaces)
-- [Csharp inheritance](Csharp inheritance)
-- [Csharp references](Csharp references)
+- [Csharp classes](csharp_classes)
+- [Csharp interfaces](csharp_interfaces)
+- [Csharp inheritance](csharp_inheritance)
+- [Csharp references](csharp_references)
 

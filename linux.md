@@ -2,10 +2,10 @@
 
 ## Bash
 - [Command](bash_commands.md)
-- [Operation](Bash_operation)
+- [Operation](bash_operation)
 - [Edit prompt](bash_prompt_editing)
-- [Bash script](Bash_script)
-- [Program](Bash_programs)
+- [Bash script](bash_script)
+- [Program](bash_programs)
 - [peripherique_command](peripherique_command)
 - [Symbolic links](linux_symbolic_links)
  

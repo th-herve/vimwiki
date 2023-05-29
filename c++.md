@@ -2,9 +2,9 @@
 
 ## == Basics ==
 
-- [Intro](C++ intro)
+- [Intro](c++_intro)
 - [Naming_convention](c++_convention)
-- [Basics](C++_basics)
+- [Basics](c++_basics)
 - [Operators](c++_operators)
 - [Variable](c++_variable)
 - [Conditional statements][c++_conditional_statements]
@@ -23,7 +23,7 @@
 
 ## == other ==
 
-- [Preprocessor](C++_preprocessor)
-- [Compiler](g++ compiler)
-- [Header file](C++_header_file)
+- [Preprocessor](c++_preprocessor)
+- [Compiler](g++_compiler)
+- [Header file](c++_header_file)
 

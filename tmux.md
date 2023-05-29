@@ -1,3 +1,3 @@
 # === Tmux ===
 
-- [tmux basics](tmux basics)
+- [tmux basics](tmux_basics)

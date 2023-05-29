@@ -4,33 +4,33 @@
 ## == Programming ==
 
 - [Python](python)
-- [C#](Csharp)
-- [C](C)
-- [C++](C++)
-- [Web](Web)
-- [Sqlite3](Sqlite3)
+- [C#](csharp)
+- [C](c)
+- [C++](c++)
+- [Web](web)
+- [Sqlite3](sqlite3)
 
 ## == General ==
 
-- [Vim](Vim)
-- [Markdown](Markdown)
-- [PowerShell](PowerShell)
-- [Git](Git)
-- [Linux](Linux)
-- [Tmux](Tmux)
-- [Qtile](Qtile)
+- [Vim](vim)
+- [Markdown](markdown)
+- [PowerShell](powershell)
+- [Git](git)
+- [Linux](linux)
+- [Tmux](tmux)
+- [Qtile](qtile)
 
 
 ## == Other ==
 
-- [International keyboard](International keyboard)
-- [Usefull link](Usefull link)
-- [Regex](Regex)
-- [Search_info](Search_info)
+- [International keyboard](international_keyboard)
+- [Usefull link](usefull_link)
+- [Regex](regex)
+- [Search_info](search_info)
 - [chezmoi_dotfiles](chezmoi_dotfiles)
 
 
-- [Vimwiki](Vimwiki)
-- [Todo](Todo)
-- [Cs61](Cs61)
+- [Vimwiki](vimwiki)
+- [Todo](todo)
+- [Cs61](cs61)
 - [Lexique](lexique)

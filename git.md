@@ -1,7 +1,7 @@
 # === Git ===
 
-- [Github](Github)
-- [Git on local](git_on_local) 
+- [Github](github)
+- [Git on local](git_on_local)_
 - [Git command](git_command)
 - [git_configuration](git_configuration)
 

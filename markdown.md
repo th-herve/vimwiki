@@ -1,4 +1,4 @@
 # === Markdown ===
 
-- [Markdown guide](Markdown guide)
-- [Markdown quick guide](Markdown quick guide)
+- [Markdown guide](markdown_guide)
+- [Markdown quick guide](markdown_quick_guide)

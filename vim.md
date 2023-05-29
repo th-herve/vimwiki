@@ -1,7 +1,7 @@
 # === Vim ===
 
-- [Vim basic](Vim basic)
-- [Custom keybinds](Vim Custom keybinds)
-- [Command](Vim Command)
-- [Pluggins/function](Vim Pluggins)
-- [Tips and tricks](Vim tips and tricks)
+- [Vim basic](vim_basic)
+- [Custom keybinds](vim_custom_keybinds)
+- [Command](vim_command)
+- [Pluggins/function](vim_pluggins)
+- [Tips and tricks](vim_tips_and_tricks)

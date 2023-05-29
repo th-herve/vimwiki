@@ -1,4 +1,4 @@
 # === Search information ===
 
-- [Google search](Google_search)
-- [Discord search](Discord_search)
+- [Google search](google_search)
+- [Discord search](discord_search)

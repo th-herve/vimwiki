@@ -1,8 +1,8 @@
 # == python wiki ==
 
 ## == Basics ==
-- [Naming convention](Python Naming convention)
+- [Naming convention](python_naming_convention)
 
 ## == Library ==
-- [Virtual env](Virtual env)
+- [Virtual env](virtual_env)
 

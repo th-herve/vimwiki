@@ -1,4 +1,4 @@
 # === Vim wiki ===
 
-- [Vim wiki basics](Vim wiki basics)
-- [Vimwiki command](Vimwiki command)
+- [Vim wiki basics](vim_wiki_basics)
+- [Vimwiki command](vimwiki_command)
