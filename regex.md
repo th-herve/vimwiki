@@ -103,13 +103,12 @@ Need to use the flag `-P` to use them
 - Negative lookbehind: `(?<!expression)`expression1: select expression1 if `not` preceded with expression in lookbehind 
  
 
-| input               | regex          | output |
-|---------------------|----------------|--------|
-| Date: 4 aug 3PM     | / \d+(?=PM)/g  | 3      |
-| Date: 4 aug 3PM     | / \d+(?!PM)/g  | 4      |
-| Code: 109 price: $5 | / (?<=$)\d+/g  | 5      |
-| Code: 109 price: $5 | / (?<=$)\d+/g  | 5      |
-| Code: 109 price: $5 | / (?<!\$)\d+/g | 109    |
+| name                | input               | regex          | output |
+|---------------------|---------------------|----------------|--------|
+| Positive lookahead  | Date: 4 aug 3PM     | / \d+(?=PM)/g  | 3      |
+| Negative lookahead  | Date: 4 aug 3PM     | / \d+(?!PM)/g  | 4      |
+| Positive lookbehind | Code: 109 price: $5 | / (?<=$)\d+/g  | 5      |
+| Negative lookbehind | Code: 109 price: $5 | / (?<!\$)\d+/g | 109    |
 
 
 
