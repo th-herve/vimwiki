@@ -12,10 +12,6 @@ Place the flag after the second `/`: /expression/flag
 | g    | global           | select in all             | /\W+\.com /g |
 | m    | multiline        | select in all line        | /\W+\.com /g |
 | i    | case-insensitive | select case insensitively | /\W+\.com /i |
-|      |                  |                           |              |
-|      |                  |                           |              |
-|      |                  |                           |              |
-
 
 ## == Basics expression ==
 
@@ -32,6 +28,7 @@ Place the flag after the second `/`: /expression/flag
 
 
 | key | action                              | example   | output                                             |
+|-----|-------------------------------------|-----------|----------------------------------------------------|
 | ^   | select matching start of line       | /^[0-9]/g | select all digit at the start of a line            |
 | $   | select matching end of line         | /html$/g  | select all html expr that are in the end of a line |
 | \w  | select letter,number and underscore | / \w /g   | a b 1 2 _ ...                                      |
