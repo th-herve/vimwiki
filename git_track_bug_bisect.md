@@ -14,7 +14,7 @@ It then narrow down the commit that cause the bug with `binary search`.
     > git bisect start
 
 3. Give it the `hash` of the good commit.
-    > git bisect good <hash>
+    > git bisect good (hash)
 
 4. If the current commit has the bug, no need to enter a hash here
     > git bisect bad <optional hash>
@@ -26,7 +26,7 @@ It then narrow down the commit that cause the bug with `binary search`.
     > git bisect good
      
 >Note: if you made a mistake, you can change the state (good|bad) of a commit:
-    > git bisect (good|bad) <hash>
+    > git bisect (good|bad) (hash)
 
 6. Repeat step 5, when done, the commit causing the bug will be identified
 
@@ -34,7 +34,7 @@ It then narrow down the commit that cause the bug with `binary search`.
 - Go to the original head commit (most recent commit)
     > git bisect reset
 - Or go to a given commit
-    > git bisect reset <hash>
+    > git bisect reset (hash)
 
 ## Other command
 
