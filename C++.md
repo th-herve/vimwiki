@@ -9,6 +9,7 @@
 - [Variable](c++_variable)
 - [Conditional statements][c++_conditional_statements]
 - [Loops](c++_loops)
+- [Function](c++_functions)
 
 ## == Library ==
 
