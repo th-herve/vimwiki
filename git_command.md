@@ -20,4 +20,4 @@
 | git reset --hard origin/master        | Reset the current branch to the version on the remote repository           |
 | git merge <branch to merge>           | Merge the specified branch with the current branch                         |
 | git init                              | Initialize a new Git repository in the current directory                   |
-
+| git commit --amend                    | Change the message of the last commit (better not do it if already pushed) |
