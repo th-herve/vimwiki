@@ -17,8 +17,8 @@
 
 ## Library
 
-- [<iostream>](c++_iostream)
-- [<string>](c++_string)
+- [iostream](c++_iostream)
+- [string](c++_string)
 
 ## c++
 
