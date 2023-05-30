@@ -1,7 +1,7 @@
 # Git
 
 - [github](github)
-- [git on local](git_on_local)_
+- [git on local](git_on_local)
 - [git command](git_command)
 - [git stash](git_stash)
 - [git configuration](git_configuration)
