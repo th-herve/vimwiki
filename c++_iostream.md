@@ -11,11 +11,11 @@
 `std::cout` stand for "character output". Is used with the insertion operator
 `<<` to print values on the terminal.
 
-***
+
 ```cpp
 std::cout << "hello " << name;
 ```
-***
+
 
 Does not add a new line automatically.
 
@@ -23,8 +23,8 @@ Does not add a new line automatically.
 
 `std::endl` stand for "end line". Add a line.
 
-***
+
 ```cpp
 std::cout << "Hello World!" << std::endl;
 ```
-***
+

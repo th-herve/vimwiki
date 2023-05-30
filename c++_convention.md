@@ -28,7 +28,7 @@ User defined `class` and `function` use `PacalCase`
 
 Example: 
 
-***
+
 ```cpp
 int GetLargerNumber(int num_one, int num_two) {
     if (num_one > num_two) {
@@ -39,7 +39,7 @@ int GetLargerNumber(int num_one, int num_two) {
     }
 }
 ```
-***
+
 
 ## Formatting
 
@@ -47,15 +47,15 @@ int GetLargerNumber(int num_one, int num_two) {
 
 - Types, variable, operators and literal value, separated by one horizontal space. 
 
-***
+
 ```cpp
 string message = "hello world";
 ```
-***
+
 
 - Classes, functions, global variables declaration and preprocessor directives, separated by one vertical space.
 
-***
+
 ```cpp
 #include <iostream>    // preprocessor directive
  
@@ -71,7 +71,7 @@ int main() {        // function
   return 0;
 }
 ```
-***
+
 
 ### Indentation
 

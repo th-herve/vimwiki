@@ -25,7 +25,7 @@ When place before the operand, it is a `pre-increment/decrement` operator.
 1. The value of the operand is incremented/decremented
 2. The new operand value is returned.
 
-***
+
 ```cpp
 int x = 10;
 
@@ -36,7 +36,7 @@ std::cout << x << ' ' << y;
 
 //output: 9 9
 ```
-***
+
 
 When place after the operand, it is a `post-increment/decrement` operator.
 
@@ -44,7 +44,7 @@ When place after the operand, it is a `post-increment/decrement` operator.
 2. The operand (not the copy) is incremented/decremented
 3. The copy (not the original value) is retured
 
-***
+
 ```cpp
 int x = 10;
 
@@ -56,7 +56,7 @@ std::cout << x << ' ' << y;
 
 //output: 9 10
 ```
-***
+
 
 ## Assignment operators
 

@@ -11,12 +11,12 @@ It is declared with an ampersand `&` between the reference type and the variable
 It is primary use in `function parameter`.  
 It allow function to modify the value of the variable referenced.
 
-***
+
 ```cpp
 int exam_grad = 85;
 int& score = exam_grade;
 ```
-***
+
 
 >Note: this notation is correct too `int &score = exam_grade;`
 
@@ -33,7 +33,7 @@ When the value of `score` is changed, the value of `exam_grade` change in the sa
 Reference can be initialized in function parameter. Allowing easy manipulation of the 
 original variable.
 
-***
+
 ```cpp
 void add_five(int& i) {
    i += 5; 
@@ -45,17 +45,17 @@ add_five(a);
 
 // a = 105
 ```
-***
+
 
 ## Memory address
 
 When `not` used in a declaration, the ampersand `&` si called the
 `adress of` operator and is used to access the memory address of a variable.
 
-***
+
 ```cpp
 int exam_grad = 85;
 std::cout << &exam_grade;
 ```
-***
+
 

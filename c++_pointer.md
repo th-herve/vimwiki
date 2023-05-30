@@ -10,13 +10,13 @@ It is usually assigned with the `&` operator. That obtain the address of a varia
 ` ` Pointer must be initialized before being used.
 ` ` Avoid pointers if possible. Prefere `references`.
 
-***
+
 ```cpp
 int my_var = 5;
 
 int* my_ptr = &my_var;
 ```
-***
+
 
 When the value of the pointer changes, the value of the original variable change
 in the same way.
@@ -28,7 +28,7 @@ When `not` used in a declaration, the asterisk symbol `*` is called the
 
 It is used to obtain the value pointed by a pointer.
 
-***
+
 ```cpp
 // print the address (0x7ffd1d8306c4)
 std::cout << my_ptr;
@@ -39,7 +39,7 @@ std::cout << *my_ptr;
 // same result as *my_ptr
 std::cout << my_var;
 ```
-***
+
 
 ## Null pointer
 
@@ -47,8 +47,8 @@ std::cout << my_var;
 
 If not use, assign it to `nullptr` keyword.
 
-***
+
 ```cpp
 int* ptr = nulptr;
 ```
-***
+
