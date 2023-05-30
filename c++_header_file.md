@@ -1,4 +1,4 @@
-# === C++ header file ===
+# C++ header file
 
 Use to link files of a project together.  
 Contain the `forward declaration` of a given code file.

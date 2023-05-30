@@ -1,4 +1,4 @@
-# === Google search ===
+# Google search
 
 ## Get a general overview
 

@@ -1,4 +1,4 @@
-# === HTML basics ===
+# HTML basics
 
 ## Basic HTML Structure
 

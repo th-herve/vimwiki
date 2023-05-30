@@ -1,4 +1,4 @@
-# === Programming lexique ===
+# Programming lexique
 
 - `preprocessor directive`: #include...
 - `statements`: unit of code that performs an action or a command, usually end with a semi colon.

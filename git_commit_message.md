@@ -1,4 +1,4 @@
-# === Git commit message ===
+# Git commit message
 
 ## Good commit structure
 

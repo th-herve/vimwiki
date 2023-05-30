@@ -1,4 +1,4 @@
-# === PowerShell command ===
+# PowerShell command
 
 ## file related command
 

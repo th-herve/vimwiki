@@ -1,5 +1,5 @@
 
-# === Cs61 intro ===
+# Cs61 intro
 
 Computer execute machine language(or instruction): 0 and 1
 

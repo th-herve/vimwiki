@@ -1,4 +1,4 @@
-# === Python virtual environment ===
+# Python virtual environment
 
 Allow to have multiple version of a library or python itself.
 

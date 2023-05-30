@@ -1,4 +1,4 @@
-# === Discord search ===
+# Discord search
 
 Search in the current viewed channel by clicking on the search bar or with `C-f`
 

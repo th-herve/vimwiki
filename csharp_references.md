@@ -1,4 +1,4 @@
-# === C# References ===
+# C# References
 
 In C#, classes and interface are `reference` types. They store a reference to their data, not the date itself (similar to pointers).
 

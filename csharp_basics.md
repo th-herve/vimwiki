@@ -1,4 +1,4 @@
-# === C# basics ===
+# C# basics
 
 ## Basic input/output
 

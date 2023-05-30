@@ -1,5 +1,5 @@
 
-# === custom keybind ===
+# custom keybind
 
 leader or ld = space
 

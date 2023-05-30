@@ -1,6 +1,6 @@
-# === Html files structure ===
+# Html files structure
 
-## == Basic structure ==
+## Basic structure
 
 - Use only lower case to name folder.
 - Must have an `index.html` all lowercase.

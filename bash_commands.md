@@ -1,6 +1,6 @@
-# === Bash command ===
+# Bash command
 
-## == Basics commands ==
+## Basics commands
 
 | key                              | action                       |
 |----------------------------------|------------------------------|
@@ -21,7 +21,7 @@
 | `find` . -type d -name directory | search for a directory       |
 |----------------------------------|------------------------------|
 
-## == Advanced commands ==
+## Advanced commands
 
 | key              | action                                                                                |
 |------------------|---------------------------------------------------------------------------------------|
@@ -119,9 +119,10 @@ Give the disk usage.
 | scanimage -f pdf > output.pdf | scan image from printer at the given format                              |
 
 
-## == Other ==
+## Other
 
 
+|--------------------|-----------------|
 | key                | action          |
 |--------------------|-----------------|
 | shellcheck file.sh | debug a script  |

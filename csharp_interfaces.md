@@ -1,4 +1,4 @@
-# === C# Interfaces ===
+# C# Interfaces
 
 An interface defines a set of properties, methods and events that a class can implement. It specifies what a class must provides, if it implements the interface. 
 

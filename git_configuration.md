@@ -1,4 +1,4 @@
-# === Git configuration ===
+# Git configuration
 
 In the email setting, check the two box to keep email address secret.
 

@@ -1,3 +1,3 @@
-# === C++ preprocessor ===
+# C++ preprocessor
 
 TODO

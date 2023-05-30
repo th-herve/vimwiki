@@ -1,4 +1,4 @@
-# === Web dev ===
+# Web dev
 
 - [html](html_index)
 - [css](css_basics)

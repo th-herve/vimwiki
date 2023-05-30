@@ -1,5 +1,5 @@
 
-# === Vim basics  ===
+# Vim basics 
 
 # Enter the differents modes
 

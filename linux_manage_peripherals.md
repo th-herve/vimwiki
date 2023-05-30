@@ -1,8 +1,8 @@
 
 
-# === Manage peripheral ===
+# Manage peripheral
 
-## == xinput ==
+## xinput
 
 xinput allow to change peripheral settings
 
@@ -20,7 +20,7 @@ Get the list of settings for a device with:
 For scripting, use the name of the device instead.
 
 
-## == Manage mouse settings ==
+## Manage mouse settings
 
 Change the settings of the mouse with `xinput`
 
@@ -30,7 +30,7 @@ Example:
 - Remove mouse acceleration: `xinput set-prop <mouse-id> <libinput accel profile enabled id> 0, 1` 
 
 
-## == Manage screen settings ==
+## Manage screen settings
 
 Use `xrandr` to list the monitors with the resolution and refresh rate available.  
 The current refresh rate is marked with an asterisk.

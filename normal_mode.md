@@ -1,4 +1,4 @@
-# === Vimwiki normal mode ===
+# Vimwiki normal mode
 
 - <Leader>ww    | Open default wiki index file.
 - <Leader>wt    | Open default wiki index file in a new tab.

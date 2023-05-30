@@ -1,4 +1,4 @@
-# === Qtile Keybind ===
+# Qtile Keybind
 
 | key             | action                   |
 |-----------------|--------------------------|

@@ -1,4 +1,4 @@
-# === Basic Guide to Debugging with GDB ===
+# Basic Guide to Debugging with GDB
 
 Debugging with GDB (GNU Debugger) is an essential tool for finding and fixing errors in your code. Here's a basic guide to help you get started:
 

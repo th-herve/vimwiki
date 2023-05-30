@@ -1,4 +1,4 @@
-# === netwr file explorer ===
+# netwr file explorer
 
 ## file operation
 

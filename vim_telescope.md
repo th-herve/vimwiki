@@ -1,6 +1,6 @@
-# === Vim telescope ===
+# Vim telescope
 
-## == Basics keymap ==
+## Basics keymap
 
 | key   | action      |
 |-------|-------------|
@@ -10,7 +10,7 @@
 | ld+fh | help tag    |
 
 
-## == Navigation ==
+## Navigation
 
 | key   | action                                               |
 |-------|------------------------------------------------------|

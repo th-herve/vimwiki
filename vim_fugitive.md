@@ -1,9 +1,9 @@
-# === Vim fugitive ===
+# Vim fugitive
 
 Git integration in nvim  
 :help fugitive for documentation
 
-## === Basics ===
+## Basics
 
 Run :Git or :G followed by a git command
 
@@ -15,7 +15,7 @@ Run :Git or :G followed by a git command
 | :G add . |                     |
 
 
-## == Resolve merge conflict ==
+## Resolve merge conflict
 
 See the difference between merging branches:
     :Gvdiffsplit

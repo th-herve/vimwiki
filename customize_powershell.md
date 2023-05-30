@@ -1,4 +1,4 @@
-# === Customize PowerShell ===
+# Customize PowerShell
 
 Edit the PowerShell_profile.ps1 file (kinda like bashrc)
 

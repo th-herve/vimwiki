@@ -1,4 +1,4 @@
-# === PowerShell Environment Variables ===
+# PowerShell Environment Variables
 
 In PowerShell, environment variables are stored as string
 

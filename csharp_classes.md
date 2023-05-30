@@ -1,4 +1,4 @@
-# === C# classes ===
+# C# classes
 
 Classes are used to create custom types.  
 A classe defines the info, and methods included in a custom type

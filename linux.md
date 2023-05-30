@@ -1,4 +1,4 @@
-# === Linux Basics ===
+# Linux Basics
 
 ## Bash
 - [Command](bash_commands.md)

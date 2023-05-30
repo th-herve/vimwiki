@@ -1,4 +1,4 @@
-# === Vim wiki basics ===
+# Vim wiki basics
 
 ## Wiki management
 

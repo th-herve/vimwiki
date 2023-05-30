@@ -1,4 +1,4 @@
-# === Bahs operation ===
+# Bahs operation
 
 ## Add text to a file txt
 

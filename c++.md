@@ -1,6 +1,6 @@
-# === C++ ===
+# C++
 
-## == Basics ==
+## Basics
 
 - [Intro](c++_intro)
 - [Naming_convention](c++_convention)
@@ -11,18 +11,18 @@
 - [Loops](c++_loops)
 - [Function](c++_functions)
 
-## == Library ==
+## Library
 
 - [<iostream>](c++_iostream)
 - [<string>](c++_string)
 
-## == c++ ==
+## c++
 
 - [Reference](c++_reference)
 - [Pointer](c++_pointer)
 - [Command line arguments](c++_command_line_arguments)
 
-## == other ==
+## other
 
 - [Preprocessor](c++_preprocessor)
 - [Compiler](g++_compiler)

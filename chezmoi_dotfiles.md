@@ -1,4 +1,4 @@
-# === Chezmoi dotfiles ===
+# Chezmoi dotfiles
 
 Manage dotfiles cross platform with chezmoi.
 

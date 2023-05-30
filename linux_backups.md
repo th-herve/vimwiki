@@ -1,4 +1,4 @@
-# === How to backup in linux ===
+# How to backup in linux
 
 Using rsync, allow to have incremental backup.
 
@@ -13,7 +13,7 @@ Alternative with tar to create a compress backup
 > time sudo tar -czvf /mnt/SSD1/backups/$backup_name.tar.gz --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} /
 
 
-# == Flag ==
+# Flag
 
 | flag     | action                                                            |
 |----------|-------------------------------------------------------------------|
@@ -26,7 +26,7 @@ Alternative with tar to create a compress backup
 
 If using rsync over ssh, you might want to use the `--numeric-ids` flag
 
-## == Restore file from backup ==
+## Restore file from backup
 
 To restore with rsync, run the same command but reverse the source and destination:
 > sudo rsync -aAXvz --delete --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} /mnt/SSD1/backups/main_backup /

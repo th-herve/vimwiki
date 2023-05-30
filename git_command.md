@@ -1,4 +1,4 @@
-# === Git command ===
+# Git command
 
 ## Branches
 

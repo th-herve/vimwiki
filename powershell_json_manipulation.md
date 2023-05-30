@@ -1,4 +1,4 @@
-# === PowerShell manipulate json file ===
+# PowerShell manipulate json file
 
 To manipulate JSON files with PowerShell, you can use the ConvertFrom-JSON cmdlet to parse JSON data into PowerShell variables, and the ConvertTo-Json cmdlet to convert PowerShell objects to JSON [Source 4]. Here are the steps to retrieve, modify and save a JSON file:
 

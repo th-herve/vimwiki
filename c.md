@@ -1,6 +1,6 @@
-# === C ===
+# C
 
 
-## == Debugging ==
+## Debugging
 - [C gcc](gcc)
 

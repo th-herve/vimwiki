@@ -1,6 +1,6 @@
-# === Bash script ===
+# Bash script
 
-# == Basic Syntax ==
+# Basic Syntax
 
 Bash scripts are typically written in a plain text file with a .sh extension. The first line of the file should specify the interpreter that should be used to execute the script. For example, the following line would specify that the Bash shell should be used:
 
@@ -18,11 +18,11 @@ After specifying the interpreter, you can start writing your Bash script. Bash c
 echo "Hello, world!"
 ```
 
-# == Control Flow Statements ==
+# Control Flow Statements
 
 Bash provides several control flow statements that allow you to execute different parts of your script based on certain conditions. Here are some of the most commonly used control flow statements:
 
-## = If Statements =
+## If Statements
 
 If statements allow you to execute code based on whether a certain condition is true or false. The basic syntax for an if statement is as follows:
 
@@ -46,7 +46,7 @@ if [ $num -gt 10 ]; then
 fi
 ```
 
-## == Else Statements ==
+## Else Statements
 
 Else statements allow you to execute code if the condition in an if statement is false. The basic syntax for an else statement is as follows:
 
@@ -72,7 +72,7 @@ else
   echo "$num is less than or equal to 10"
 fi
 ```
-## == Elif Statements ==
+## Elif Statements
 
 Elif statements allow you to check multiple conditions in a single if statement. The basic syntax for an elif statement is as follows:
 
@@ -103,7 +103,7 @@ else
 fi
 ```
 
-## = For Loops =
+## For Loops
 
 For loops allow you to execute a block of code for each item in a list. The basic syntax for a for loop is as follows:
 
@@ -123,7 +123,7 @@ for i in 1 2 3 4 5; do
   echo $i
 done
 ```
-## = While Loops =
+## While Loops
 
 While loops allow you to execute a block of code repeatedly as long as a certain condition is true. The basic syntax for a while loop is as follows:
 
@@ -146,7 +146,7 @@ while [ $count -le 5 ]; do
   count=$((count+1))
 done
 ```
-## = Case Statements =
+## Case Statements
 
 Case statements allow you to execute different code blocks based on the value of a variable. The basic syntax for a case statement is as follows:
 
@@ -184,11 +184,11 @@ case $animal in
     ;;
 esac
 ```
-# == Operators ==
+# Operators
 
 Bash provides several operators that you can use in your scripts to perform operations on variables and values. Here are some of the most commonly used operators:
 
-## = Arithmetic Operators =
+## Arithmetic Operators
 
 Arithmetic operators allow you to perform mathematical operations on variables and values. Here are the arithmetic operators that Bash provides:
 
@@ -218,7 +218,7 @@ remainder=$((num1 % num2))
 power=$((num1 ** 2))
 
 ```
-## = Comparison Operators =
+## Comparison Operators
 
 Comparison operators allow you to compare values and variables to see if they are equal, not equal, greater than, or less than. Here are the comparison operators that Bash provides:
 

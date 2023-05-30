@@ -1,3 +1,3 @@
-# === Qtile ===
+# Qtile
 
 - [Keybind](qtile_keybinds)

@@ -1,4 +1,4 @@
-# === css basics ===
+# css basics
 
 /* Comment */
 selector {

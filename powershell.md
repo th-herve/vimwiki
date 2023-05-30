@@ -1,8 +1,8 @@
-# === PowerShell ===
+# PowerShell
 
 - [Customize PowerShell](customize_powershell)
 
-## == PowerShell script ==
+## PowerShell script
 - [PowerShell basics](powershell_basics)
 - [PowerShell control flow](powershell_control_flow)
 - [PowerShell command list](powershell_command_list)

@@ -1,4 +1,4 @@
-# === PowerShell Object and Array ===
+# PowerShell Object and Array
 
 Object have properties and methods
 

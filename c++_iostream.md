@@ -1,4 +1,4 @@
-# === C++ iostream ==
+# C++ iostream
 
 ### Include
 

@@ -1,4 +1,4 @@
-# === Vim ===
+# Vim
 
 - [Vim basic](vim_basic)
 - [Custom keybinds](vim_custom_keybinds)

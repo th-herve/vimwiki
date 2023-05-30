@@ -1,4 +1,4 @@
-# === html Index ===
+# html Index
 
 - [html basics](html_basics)
 - [html boiler plate](html_boiler_plate)

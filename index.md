@@ -1,7 +1,7 @@
-# === Wiki ===
+# Wiki
 
 
-## == Programming ==
+## Programming
 
 - [Python](python)
 - [C#](csharp)
@@ -10,7 +10,7 @@
 - [Web](web)
 - [Sqlite3](sqlite3)
 
-## == General ==
+## General
 
 - [Vim](vim)
 - [Markdown](markdown)
@@ -21,7 +21,7 @@
 - [Qtile](qtile)
 
 
-## == Other ==
+## Other
 
 - [International keyboard](international_keyboard)
 - [Usefull link](usefull_link)

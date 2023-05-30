@@ -1,4 +1,4 @@
-# === Data representation intro ===
+# Data representation intro
 
 ## Bytes of memory
 

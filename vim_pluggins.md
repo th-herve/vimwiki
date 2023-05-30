@@ -1,4 +1,4 @@
-# === Vim pluggins ===
+# Vim pluggins
 
 - [Spell check](check)
 - [Surround](surround)

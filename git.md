@@ -1,4 +1,4 @@
-# === Git ===
+# Git
 
 - [github](github)
 - [git on local](git_on_local)_

@@ -1,10 +1,10 @@
-# === C++  convention ===
+# C++  convention
 
 Based on [this](https://www.codecademy.com/courses/c-plus-plus-for-programmers/articles/cpp-style-guide)
 
 Following [Google C++ sytle guide](https://google.github.io/styleguide/cppguide.html#cpplint)
 
-## == Naming convention
+## Naming convention
 
 Name never start with digit
 
@@ -16,7 +16,7 @@ User defined `class` and `function` use `PacalCase`
 `Variable` uses `snake_case` 
 > `student_id` or `result`
 
-## == Punctuation marks ==
+## Punctuation marks
 
 - Brackets `{}`: 
     - Open bracket on the same line as the statement. 
@@ -41,7 +41,7 @@ int GetLargerNumber(int num_one, int num_two) {
 ```
 ***
 
-## == Formatting ==
+## Formatting
 
 ### Spacing
 

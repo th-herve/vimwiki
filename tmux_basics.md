@@ -1,4 +1,4 @@
-# === Tmux ===
+# Tmux
 
 <Pr> = prefix (C-s)
 

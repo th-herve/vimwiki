@@ -1,4 +1,4 @@
-# === g++ compiler ===
+# g++ compiler
 
 C++ is a compiled language. The C++ source code must be 
 translated to machine code before it can be run.

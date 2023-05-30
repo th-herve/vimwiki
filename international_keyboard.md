@@ -1,4 +1,4 @@
-# === US International keyboard layout ===
+# US International keyboard layout
 
 Allow to use different accent with the standard qwerty us layout
 

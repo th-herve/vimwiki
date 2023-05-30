@@ -1,6 +1,6 @@
-# === Edit bash prompt ===
+# Edit bash prompt
 
-## == Basics ==
+## Basics
 
 | keybind        | action                        |
 |----------------|-------------------------------|
@@ -13,7 +13,7 @@
 
 > note: M = Alt
 
-## == Killing command ==
+## Killing command
 
 Killing refer to delete the text, but save it for later use. So past it back later.
 
@@ -26,7 +26,7 @@ Killing refer to delete the text, but save it for later use. So past it back lat
 
 > Note: There is a way to repeat action with the Meta key, but I was to lazy to add it
 
-## == Searching command history ==
+## Searching command history
 
 | keybind   | action                                                   |
 |-----------|----------------------------------------------------------|
@@ -37,7 +37,7 @@ Killing refer to delete the text, but save it for later use. So past it back lat
 
 > Note: Can also use `history` cmd
 
-## == Chaining commands ==
+## Chaining commands
 
 ### Execute several command one after the other
 

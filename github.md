@@ -1,4 +1,4 @@
-# === Git and git hub ===
+# Git and git hub
 
 # participate on git hub
 

@@ -1,4 +1,4 @@
-# === C# Methods ===
+# C# Methods
 
 # Declaration
 

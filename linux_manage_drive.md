@@ -1,4 +1,4 @@
-# === Manage Linux drive ===
+# Manage Linux drive
 
 `  Be carefull when working on drive 
 `
@@ -24,7 +24,7 @@ ls -l /dev/sde4
 
 ```
 
-## == Using fdisk ==
+## Using fdisk
 
 In terminal, enter `sudo fdisk /dev/sde`
 
@@ -46,12 +46,12 @@ In terminal, enter `sudo fdisk /dev/sde`
 
 The partition should be created. But `not` mounted `nor` formatted so not usable. (keep reading)
 
-## == Format partition with mkfs ==
+## Format partition with mkfs
 
 1. `sudo mkfs.<filesystem> /dev/sde4` 
 > ex for Linux `sudo mkfs.ext4 /dev/sde4`
 
-## == Mount a drive or partition manually ==
+## Mount a drive or partition manually
 
 Assign a given location to access a drive. Mount either in:
 - `/media/`: for temporary devices (usb key...)
@@ -64,7 +64,7 @@ Assign a given location to access a drive. Mount either in:
 4. Mount it: `sudo mount /dev/sde4 /mnt/disk1`
 
 
-## == Unmount a drive or partition ==
+## Unmount a drive or partition
 
 Use `umount` and the location where the drive/partition is mounted.  
 ` ` it is `umount` and `not` unmount, no n after the u.
@@ -72,7 +72,7 @@ Use `umount` and the location where the drive/partition is mounted.
 
 > `sudo umount /mnt/disk1`
 
-## == Mount a drive automatically ==
+## Mount a drive automatically
 
 `  Be extra carefull with fstab  `
 
@@ -104,7 +104,7 @@ It is best to test:
 3. Check if the device is mounted with `mount | grep sde4` (if it has duplicate it's alright)
 
  
-## == Check space usage with ncdu ==
+## Check space usage with ncdu
 
 Install ncdu: `sudo apt install ncdu`
 Run: `sudo ncdu` or `sudo ncdu /`   

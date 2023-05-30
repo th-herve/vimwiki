@@ -1,5 +1,5 @@
 
-# === Python naming convention ===
+# Python naming convention
 
 >note: not universal
  

@@ -1,4 +1,4 @@
-# === C# inheritance ===
+# C# inheritance
 
 Inheriance, is the mechanism that allow a class to take properties and behavior from another:
 

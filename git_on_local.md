@@ -1,4 +1,4 @@
-# === use git on local  ===
+# use git on local 
 
 1. in the directory you want to track 
     ```bash

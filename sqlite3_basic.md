@@ -1,4 +1,4 @@
-# === SQLite3 Guide ===
+# SQLite3 Guide
 
 To start using SQLite3 in a terminal, run the command:
 

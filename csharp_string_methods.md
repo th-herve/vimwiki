@@ -1,4 +1,4 @@
-# === C# String Methods ===
+# C# String Methods
 
 Given this string 
 ```C#

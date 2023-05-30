@@ -1,4 +1,4 @@
-# === Linux symbolic links ===
+# Linux symbolic links
 
 Symbolic links or symlink, link one object to another. Like a shortcut on windows.
 
@@ -11,7 +11,7 @@ Ex: create a link to test.txt on the desktop:
 In `ls -l`, sysLink are represented like so:
 > `l`rwxrwxrwx 1 user date `test.txt -> /home/Document/test.txt`
 
-## == Soft and hard links ==
+## Soft and hard links
 
 (by chat gpt)
 

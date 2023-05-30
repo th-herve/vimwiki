@@ -1,4 +1,4 @@
-# === Vim wiki command ===
+# Vim wiki command
 
 | command                | action                               |
 |------------------------|--------------------------------------|

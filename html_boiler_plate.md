@@ -1,4 +1,4 @@
-# === html boiler plate ===
+# html boiler plate
 
 ```html
 
@@ -15,7 +15,7 @@
 
 ```
 
-## == The DOCTYPE ==
+## The DOCTYPE
 
 Tell the browser the version of html to render the document.
 
@@ -23,7 +23,7 @@ For html5:
 
 - `<DOCTYPE html>`
 
-## == Html element ==
+## Html element
 
 Root element.
 
@@ -34,7 +34,7 @@ Root element.
 
 The `lang` attribute specify the language and improve accessibility.
 
-## == Head element ==
+## Head element
 
 The `<head>` element store important meta-information about the page, and requirement to render correctly in the browser.
 
@@ -54,7 +54,7 @@ If not specify, the name of the file is displayed. (ex: index.html)
 
 > `<title>webpage tilte</title>`
 
-## == Body element ==
+## Body element
 
 Element where the content displayed to the user is specify.
 

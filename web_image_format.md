@@ -1,4 +1,4 @@
-# === Web image format ===
+# Web image format
 
 They are four main image format for the web with different use cases:
 - jpg

@@ -1,4 +1,4 @@
-# === 1 ===
+# 1
 
 Computer execute machine language(or instruction): 0 and 1
 

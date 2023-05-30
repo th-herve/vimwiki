@@ -1,7 +1,7 @@
-# === Regex ===
+# Regex
 
 
-## == Flag ==
+## Flag
 
 Flag are modifier that change the output of a regex expression.  
 Place the flag after the second `/`: /expression/flag
@@ -13,7 +13,7 @@ Place the flag after the second `/`: /expression/flag
 | m    | multiline        | select in all line        | /\W+\.com /g |
 | i    | case-insensitive | select case insensitively | /\W+\.com /i |
 
-## == Basics expression ==
+## Basics expression
 
 > string used in example: bar bor. boo bir 
 
@@ -39,7 +39,7 @@ Place the flag after the second `/`: /expression/flag
 | \S  | except space                        | / \S /g   | you get it                                         |
 
 
-## == Repetition ==
+## Repetition
 
 
 - `Asterisk *`: after a character, indicate that this character may either: not appear at all, or appear once or more side by side.
@@ -68,7 +68,7 @@ Place the flag after the second `/`: /expression/flag
 | ber beer beeer beeeer | /be{2,}r/g  | beer beeer beeeer |
 | ber beer beeer beeeer | /be{2,3}r/g | beer beeer        |
 
-## == Grouping ==
+## Grouping
 
 - Group expression with the `parentheses ()`
 
@@ -80,7 +80,7 @@ Place the flag after the second `/`: /expression/flag
 - (?:expression): denote a non-capturing group
 
 
-## == Alternation ==
+## Alternation
 
 - `Pip |`: specifies that an expression can be in different expression.
 
@@ -92,7 +92,7 @@ Place the flag after the second `/`: /expression/flag
 >Note: the `|` in the table is not a pipe, because it make the table bug
 
 
-## == Lookahead/lookbehind ==
+## Lookahead/lookbehind
 
 Need to use the flag `-P` to use them
 
