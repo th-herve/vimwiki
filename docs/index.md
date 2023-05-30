@@ -1,6 +1,5 @@
 # Wiki
 
-
 ## Programming
 
 - [Python](python)
@@ -33,4 +32,4 @@
 - [Vimwiki](vimwiki)
 - [Todo](todo)
 - [Cs61](cs61)
-- [Lexique](lexique)
+- [Lexicon](lexicon)
