@@ -7,9 +7,13 @@
 - [Basics](c++_basics)
 - [Operators](c++_operators)
 - [Variable](c++_variable)
-- [Conditional statements][c++_conditional_statements]
+- [Conditional statements](c++_conditional_statements)
 - [Loops](c++_loops)
 - [Function](c++_functions)
+
+## Classes and objects
+
+- [Classes and objects](c++_class_object)
 
 ## Library
 
