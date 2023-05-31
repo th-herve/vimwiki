@@ -6,7 +6,7 @@ Use the `class` keyword to create one, end its definition with a semicolon `;`
 
 ```cpp
 class Dog {
-    // class
+    // class elements
 };
 ```
 > ` ` Don't forget the semicolon at the end 
@@ -27,11 +27,11 @@ public:
     }
 };
 ```
-For larger projects, it’s recommended to split up the class definition in a header and a .cpp file.
-Doing so requires class methods to be defined outside of the class definition. 
-In this scenario, use the `ClassName::` namespace to indicate that the function belongs to that class.
+Methods can be defined outside of the class (for example in their own separate file).
+In that case, it need to be specified with `ClassName::`
 
 ```cpp
+// outside of the Dog class definition
 void Dog::bark() {
     std::cout << name << "is barking\n";
 }
