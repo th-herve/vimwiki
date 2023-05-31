@@ -15,6 +15,7 @@
 
 - [Classes and objects](c++_class_object)
 - [Access specifiers](c++_access_specifiers)
+- [Constructore](c++_constructors)
 
 ## Library
 
