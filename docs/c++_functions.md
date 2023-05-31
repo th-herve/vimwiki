@@ -10,7 +10,7 @@ void functionName() {
 
 ### Parameters
 
-`Parameters` are defined in the funtion declaration, inside the parentheses `()`.
+`Parameters` are defined in the function declaration, inside the parentheses `()`.
 
 Contain a `name` and `datatype`.
 
@@ -43,7 +43,8 @@ int main() {
 
 ### Pass by reference
 
-Allows a function to modify the velue of its argument.
+Allows a function to modify the value of its argument.
+It uses [references](c++_reference).
 
 Use the `&` operator.
 
@@ -80,4 +81,3 @@ To be overlaoded, functions should have at least one of the following properties
 
 - Each functions has a different types of parameters
 - Each functions has a different number of parameters
-

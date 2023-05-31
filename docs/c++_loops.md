@@ -73,7 +73,7 @@ for (int i = 0; i < 10; i++) {
 
 Difference between `break` and `return`
 
-- `break` terminates a `switch` or `loop`, code execution continue at the line after the sciwch or loop.
+- `break` terminates a `switch` or `loop`, code execution continue at the line after the switch or loop.
 - `return` terminates a `function`, code execution continue where the function was called.
 
 ### continue
@@ -82,6 +82,7 @@ Skip an iteration of a loop. If `continue` is executed, the loop skip the iterat
 
 ```cpp
 for (int i = 0; i < 10; i++) {
+    // 4 is not printed, but the rest is
     if (i == 4) {
         continue;
     }

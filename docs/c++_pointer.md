@@ -17,7 +17,6 @@ int my_var = 5;
 int* my_ptr = &my_var;
 ```
 
-
 When the value of the pointer changes, the value of the original variable change
 in the same way.
 

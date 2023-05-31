@@ -29,7 +29,7 @@ By default, class members are `private`. They cannot be directly access from out
 
 `public` members are accessible anywhere in the program.
 
-It is best used for methods. Proved ways for the program to interact 
+It is best used for methods. Provide ways for the program to interact 
 with an instance of the class.
 
 ## Encapsulation
@@ -39,8 +39,8 @@ with an instance of the class.
 In C++ this translate by declaring a class members/attributes as `private`.
 So they cannot be accessed from outside the class.
 
-However, if the program may need to interact with those values. 
-It can still do so wit `accessor functions` and `mutator functions` (getter and setter).
+However, if the program may need to interact with those values, 
+it can still do so with `accessor functions` and `mutator functions` (getter and setter).
 
 ## Accessor functions
 

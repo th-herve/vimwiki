@@ -1,4 +1,4 @@
-# C++ command line arguments
+C++ command line arguments
 
 ## Passing command line arguments
 
@@ -7,9 +7,9 @@ Pass them after the executable name
 > ./greeting commandLineArgument
 
 > Note: command line arguments are `always` passed as `string`
+> `./C++_program 12` will be passed as `"12"` in the program.
 
-## using command line arguments
-
+## Using command line arguments
 
 ```cpp
 int main(int argc, char* argv[]);

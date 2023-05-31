@@ -28,7 +28,7 @@ public:
 };
 ```
 Methods can be defined outside of the class (for example in their own separate file).
-In that case, it need to be specified with `ClassName::`
+In that case, it need to be specified with its namespace `ClassName::`
 
 ```cpp
 // outside of the Dog class definition
@@ -39,7 +39,7 @@ void Dog::bark() {
 
 ## Objects
 
-Create an instance of a class or `object` 
+Create an instance of a class or an `object` 
 
 ```cpp
 Dog mydog;

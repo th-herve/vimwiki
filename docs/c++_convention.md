@@ -4,11 +4,19 @@ Based on [this](https://www.codecademy.com/courses/c-plus-plus-for-programmers/a
 
 Following [Google C++ sytle guide](https://google.github.io/styleguide/cppguide.html#cpplint)
 
+## Recap
+
+| element  | naming convention | example      |
+|----------|-------------------|--------------|
+| class    | PascalCase        | ClassName    |
+| function | PacalCase         | BubbleSort() |
+| variable | snake_case        | my_variable  |
+
 ## Naming convention
 
-Name never start with digit
+Name never start with digit.
 
-Can't use a predifiend keyword
+Can't use a predefined keyword.
 
 User defined `class` and `function` use `PacalCase` 
 > `LinkedList` or `BubbleSort()`
@@ -47,7 +55,6 @@ int GetLargerNumber(int num_one, int num_two) {
 
 - Types, variable, operators and literal value, separated by one horizontal space. 
 
-
 ```cpp
 string message = "hello world";
 ```
@@ -75,7 +82,9 @@ int main() {        // function
 
 ### Indentation
 
-Each new block (loop, method...) opening should be intended.
+Each new block (loop, method...) opening should be intended. 
+
+Level of indentation: ?? (2 or 4)
 
 ### Line length 
 

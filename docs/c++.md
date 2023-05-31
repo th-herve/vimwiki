@@ -4,16 +4,15 @@
 
 - [Intro](c++_intro)
 - [Naming_convention](c++_convention)
-- [Basics](c++_basics)
+- [Variable](c++_variables)
 - [Operators](c++_operators)
-- [Variable](c++_variable)
 - [Conditional statements](c++_conditional_statements)
 - [Loops](c++_loops)
 - [Function](c++_functions)
 
 ## Classes and objects
 
-- [Classes and objects](c++_class_object)
+- [Classes and objects](c++_class_object_basics)
 - [Access specifiers](c++_access_specifiers)
 - [Constructors](c++_constructors)
 

@@ -1,7 +1,7 @@
 # C++ reference
 
 Provides ways to directly manipulate memory.
-It bring many used  cases such as dynamic memory allocation and advanced data structures.
+It bring many used cases such as dynamic memory allocation and advanced data structures.
 
 ## Reference
 
@@ -16,8 +16,6 @@ It allow function to modify the value of the variable referenced.
 int exam_grad = 85;
 int& score = exam_grade;
 ```
-
-
 >Note: this notation is correct too `int &score = exam_grade;`
 
 The `score` variable is an alias to `exam_grade` variable.  
@@ -49,7 +47,7 @@ add_five(a);
 
 ## Memory address
 
-When `not` used in a declaration, the ampersand `&` si called the
+When `not` used in a declaration, the ampersand `&` is called the
 `adress of` operator and is used to access the memory address of a variable.
 
 

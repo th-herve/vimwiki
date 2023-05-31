@@ -1,4 +1,4 @@
-# 1
+# C++ intro
 
 Computer execute machine language(or instruction): 0 and 1
 
@@ -40,10 +40,3 @@ Contain info like, executable name, libraries to look for, how much optimization
 Two main configuration:
     1. Release 
     2. Debug
-
-## Lexique
-`self contain`: not reliant on other program 
-
-
-
-

@@ -89,7 +89,7 @@ int main() {
     Sport tandem("tandem");
 }
 ```
-> `⚠` The compiler match arguments from left to right. So in our case, this is not possible:
+> `⚠` The compiler match arguments from left to right. So in our case, this following example is not possible:
 
 ```cpp
 Sport new_sport(10);

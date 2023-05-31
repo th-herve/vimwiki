@@ -10,12 +10,12 @@
 | /        | division       |
 | %        | modulus        |
 
-| operator | name           | example | description                      |
-|----------|----------------|---------|----------------------------------|
-| ++       | pre-increment  | ++x     | increment x, return x            |
-| --       | pre-decrement  | --x     | decrement x, return x            |
-| ++       | post-increment | x++     | copy x, increment x, return copy |
-| --       | post-decrement | x--     | copy x, decrement x, return copy |
+| operator | name           | example | description                                    |
+|----------|----------------|---------|------------------------------------------------|
+| ++x      | pre-increment  | ++5     | first increment x then return x                |
+| --x      | pre-decrement  | --5     | first decrement x then return x                |
+| x++      | post-increment | 5++     | first copy x then increment x then return copy |
+| x--      | post-decrement | 5--     | first copy x then decrement x then return copy |
 
 
 ### Pre vs post-increment/decrement
@@ -99,6 +99,21 @@ The result of the logical operation is a `bool`.
 | ∣∣       | x ∣∣ y  |
 | !        | !x      |
 
+## Special operator
+
+| operator | name             | action                                                              | exemple              |
+|----------|------------------|---------------------------------------------------------------------|----------------------|
+| <<       | insertion        |                                                                     | std::cout << "hello" |
+| >>       | extraction       |                                                                     | std::cin >> x        |
+| ::       | scope resolution | identifies on the left, the namespace of the right identifier       | std::cout            |
+
+
+```cpp
+std::cout << "hello there" << name;
+std::cin >> variable_name;
+```
+
+
 ## Bitwise operators
 
 Manipulate variables at bit level.
@@ -113,6 +128,8 @@ Commonly used with numerical variables.
 | &        | bitwise AND | x % y   | each bit in x AND each bit in y |
 | ∣        | bitwise OR  | x ∣ y   | each bit in x OR each bit in y  |
 | ^        | bitwise XOR | x ^ y   | each bit in x XOR each bit in y |
+
+> More [info](https://www.codecademy.com/resources/docs/cpp/bitwise-operators)
 
 ## Operator precedence
 
