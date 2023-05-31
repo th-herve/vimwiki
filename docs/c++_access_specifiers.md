@@ -34,7 +34,7 @@ with an instance of the class.
 
 ## Encapsulation
 
-`Encapsulation` in OOP programming means hidding details about an object's implementation.
+`Encapsulation` in OOP programming means hiding details about an object's implementation.
 
 In C++ this translate by declaring a class members/attributes as `private`.
 So they cannot be accessed from outside the class.

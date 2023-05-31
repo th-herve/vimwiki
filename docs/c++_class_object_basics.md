@@ -48,7 +48,7 @@ Dog mydog;
 Use the `.` to access and modify its attributes or call its methods
 
 ```cpp
-mydog.name = "Medor"
+mydog.name = "Snoopy"
 
 mydog.bark();
 ```

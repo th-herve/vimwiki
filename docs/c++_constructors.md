@@ -10,7 +10,7 @@ It has the same name as the class and no return type. They are used to initializ
 A `default constructor` takes no parameters. If the object is instantiate without specifying values,
 the default constructor is called.
 
-It is usefull to ensure that a instance of the class is always initialized.
+It is useful to ensure that a instance of the class is always initialized.
 
 ```cpp
 class Sport {
@@ -37,7 +37,7 @@ int main() {
 Like functions, constructors can be declared with parameters.
 It allows to instantiate object with given values.
 
-A constructor can be overladed so a class can have multiple constructor.
+A constructor can be overloaded so a class can have multiple constructor.
 
 
 ```cpp
@@ -99,7 +99,7 @@ Sport new_sport(10);
 ## Member initializer lists (initialize constant)
 
 The constructor example shown have been `assigning` value, not `initating` them.
-This causes a problem when dealing with `const` or `reference` variables, that need to be initalized when declared.
+This causes a problem when dealing with `const` or `reference` variables, that need to be initialized when declared.
 
 C++ provide a way to initialize attributes with `member initalizer list`.
 It is placed after the constructor parameters list. It begin with a colon `:`, it then list 
