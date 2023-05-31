@@ -96,7 +96,7 @@ Sport new_sport(10);
 ```
 > To make it possible, a constructor that take one `int` parameter must be created.
 
-## Member initializer lists (initialize constant)
+## Member initializer lists (initialize constant and more...)
 
 The constructor example shown have been `assigning` value, not `initating` them.
 This causes a problem when dealing with `const` or `reference` variables, that need to be initialized when declared.

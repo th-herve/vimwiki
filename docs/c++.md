@@ -15,6 +15,7 @@
 - [Classes and objects](c++_class_object_basics)
 - [Access specifiers](c++_access_specifiers)
 - [Constructors](c++_constructors)
+- [Inheritance](c++_inheritance)
 
 ## Library
 
@@ -35,3 +36,4 @@
 
 [source](https://www.codecademy.com/learn/c-plus-plus-for-programmers)
 [source2](https://www.learncpp.com/)
+
