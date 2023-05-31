@@ -2,21 +2,22 @@
 
 ## Programming
 
-- [Python](python)
-- [C#](csharp)
 - [C](c)
 - [C++](c++)
+- [C#](csharp)
+- [Python](python)
 - [Web](web)
 - [Sqlite3](sqlite3)
 
 ## General
 
+- [Linux](linux)
 - [Vim](vim)
 - [Markdown](markdown)
 - [PowerShell](powershell)
 - [Git](git)
-- [Linux](linux)
 - [Tmux](tmux)
+- [Regex](regex)
 - [Qtile](qtile)
 
 
@@ -24,7 +25,6 @@
 
 - [International keyboard](international_keyboard)
 - [Usefull link](usefull_link)
-- [Regex](regex)
 - [Search_info](search_info)
 - [chezmoi_dotfiles](chezmoi_dotfiles)
 
