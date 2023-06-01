@@ -22,6 +22,7 @@
 
 - [Arrays](c++_arrays)
 - [Vector](c++_vectors)
+- [Stacks](c++_stacks)
 
 
 ## Library
