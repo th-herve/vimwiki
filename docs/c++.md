@@ -16,6 +16,7 @@
 - [Access specifiers](c++_access_specifiers)
 - [Constructors](c++_constructors)
 - [Inheritance](c++_inheritance)
+- [Polymorphism](c++_polymorphism)
 
 ## Library
 
