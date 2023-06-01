@@ -18,6 +18,11 @@
 - [Inheritance](c++_inheritance)
 - [Polymorphism](c++_polymorphism)
 
+## Data structures
+
+- [Arrays](c++_arrays)
+
+
 ## Library
 
 - [iostream](c++_iostream)
