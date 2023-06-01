@@ -23,6 +23,7 @@
 - [Arrays](c++_arrays)
 - [Vector](c++_vectors)
 - [Stacks](c++_stacks)
+- [Queue](c++queue)
 
 
 ## Library
