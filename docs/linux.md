@@ -1,7 +1,7 @@
 # Linux Basics
 
 ## Bash
-- [Command](bash_commands.md)
+- [Command](bash_command.md)
 - [Operation](bash_operation)
 - [Edit prompt](bash_prompt_editing)
 - [Bash script](bash_script)

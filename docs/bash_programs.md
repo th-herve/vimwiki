@@ -20,12 +20,12 @@ Display information about the key type.
 
 ## amixer/alsamixer
 
-Control the volume with command or with gui (alsamixer).
+Control the volume with command or with tui (alsamixer).
 
 ex:
 
 ```bash
-// reducee volume
+// reduce volume
 $ amixer -c 1 sset PCM 5%-
 
 // up volume
