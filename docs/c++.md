@@ -21,6 +21,7 @@
 ## Data structures
 
 - [Arrays](c++_arrays)
+- [Vector](c++_vectors)
 
 
 ## Library
