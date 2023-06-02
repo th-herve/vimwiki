@@ -18,7 +18,6 @@
 | command                 | description                                                     |
 |-------------------------|-----------------------------------------------------------------|
 | git init                | Initialize a new Git repository in the current directory        |
-| git clone (url)         | Copy the given repo                                             |
 | git pull                | Retrieve and merge the remote changes                           |
 | git add (filename)      | Stage changes made to a file for commit                         |
 | git commit              | Commit changes (will open an editor for the message)            |
@@ -36,6 +35,13 @@
 | git commit --amend              | Change the message of the last commit (better not do it if already pushed) |
 | git commit --amend -m "message" | Change the message of the last commit (better not do it if already pushed) |
 | git checkout (commit number)    | Switch to the specified commit                                             |
+
+## Clone
+
+| command                  | description                                                           |
+|--------------------------|-----------------------------------------------------------------------|
+| git clone (url)          | Copy the given repo                                                   |
+| git clone --shalow (url) | Clone only the last snapshot of the repo (no history, make it faster) |
 
 ## Log
 

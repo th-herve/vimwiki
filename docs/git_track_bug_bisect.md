@@ -41,3 +41,5 @@ It then narrow down the commit that cause the bug with `binary search`.
 | name           | action                                             |
 |----------------|----------------------------------------------------|
 | git bisect log | show what has been done, what's marked good or bad |
+
+> Note: this process can be fully automated, and check by itself if a bug is present or not. (but how???) 
