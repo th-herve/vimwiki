@@ -49,3 +49,4 @@ See also: #456, #789
 7. Use the body to explain `what` and `why` vs ~~how~~
 
 [source](https://cbea.ms/git-commit/)
+[source2](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
