@@ -6,3 +6,5 @@
 ## Library
 - [Virtual env](virtual_env)
 
+- [Debubg with pdb](python_pdb_debugger.md)
+
