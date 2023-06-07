@@ -9,6 +9,7 @@
 ## Web
 
 - [Css legal color](https://www.w3schools.com/cssref/css_colors_legal.php)
+- [html and css tuto](https://internetingishard.netlify.app/index.html)
 - How to set up google [oAuth](https://developers.google.com/identity/protocols/oauth2/web-server#python) on a flask app
 - use https for testing in [flask](https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https)
 

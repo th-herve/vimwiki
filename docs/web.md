@@ -1,5 +1,5 @@
 # Web dev
 
 - [html](html_index)
-- [css](css_basics)
+- [Css](css.md)
 - [web image format](web_image_format)
