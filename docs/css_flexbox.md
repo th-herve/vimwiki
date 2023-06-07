@@ -28,6 +28,8 @@ It is a shorthand for the three property:
     flex: 1;
 }
 ```
+
+```markdown
 A             B              C
 +---------+   +----------+   +----------+
 ¦         ¦   ¦          ¦   ¦          ¦
@@ -36,7 +38,7 @@ A             B              C
 ¦         ¦   ¦          ¦   ¦          ¦
 +---------+   +----------+   +----------+
   no flex       equal flex     unequal flex   
-
+```
 - A: `no flex` property on the items
 - B: `flex: 1;` on each items
 - C: `flex: 1;` on the first two items, `flex: 2;` on the last
@@ -51,6 +53,7 @@ Some apply to containers and other to items.
 The `justify-content` attributes apply to the `container`.
 It defines the horizontal alignments of its items.
 
+```markdown
 +---------+   +---------+   +---------+
 ¦ ◼◼◼     ¦   ¦   ◼◼◼   ¦   ¦     ◼◼◼ ¦ 
 +---------+   +---------+   +---------+ 
@@ -60,7 +63,7 @@ It defines the horizontal alignments of its items.
 ¦ ◼  ◼  ◼ ¦      ¦◼   ◼   ◼¦
 +---------+      +---------+
 space-around     space-between
-
+```
 ### Vertical alignments
 
 The `align-items` attributes apply to the `container`.
@@ -80,6 +83,7 @@ It defines the vertical alignments of its items.
 Let the overvlow item wrap and create a grid with the `flex-wrap` property.
 It apply to the `container`.
 
+```markdown
 +---------+        +---------+
 ¦ ◼ ◼ ◼ ◼ ¦◼ ◼ ◼   ¦ ◼ ◼ ◼ ◼ ¦
 ¦         ¦        ¦  ◼ ◼ ◼  ¦
@@ -87,12 +91,13 @@ It apply to the `container`.
 ¦         ¦        ¦         ¦
 +---------+        +---------+
   nowrap               wrap 
-  
+```  
 ### Flex direction
 
 The `flex-direction` attributes apply to the `container`.
 It refers wheter its items are render horizontally or vertically.
 
+```markdown
 +---------+   +---------+
 ¦         ¦   ¦    ◼    ¦
 ¦ ◼ ◼ ◼ ◼ ¦   ¦    ◼    ¦
@@ -100,6 +105,7 @@ It refers wheter its items are render horizontally or vertically.
 ¦         ¦   ¦    ◼    ¦
 +---------+   +---------+
     row          column
+```
 
 >Note: When rotating the direction of a container, the attributes `justify-content` and `align-items`
 > are inverted [More on this.](https://internetingishard.netlify.app/html-and-css/flexbox/index.html#alignment-considerations)
@@ -109,11 +115,13 @@ It refers wheter its items are render horizontally or vertically.
 Flex containers only know the position of elements one level below.
 It means you can group flex items by wrapping them inside an extra div.
 
+```markdown
 A                B
 +---------+      +---------+
 ¦◼   ◼   ◼¦      ¦◼     ◼ ◼¦
 +---------+      +---------+
 No grouping      Grouped items
+```
 
 In example B, the two items on the right are group in a common div.
 The flex container treat this div as a single item and does not apply to the items inside.
