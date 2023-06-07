@@ -65,7 +65,7 @@ space-around     space-between
 
 The `align-items` attributes apply to the `container`.
 It defines the vertical alignments of its items.
-
+```markdown
 +---------+   +---------+   +---------+   +---------+
 ¦         ¦   ¦   ◼     ¦   ¦         ¦   ¦ █       ¦ 
 ¦         ¦   ¦   ◼◼◼   ¦   ¦   ◼     ¦   ¦ █       ¦ 
@@ -73,6 +73,7 @@ It defines the vertical alignments of its items.
 ¦   ◼◼◼   ¦   ¦         ¦   ¦         ¦   ¦ █  █  █ ¦ 
 +---------+   +---------+   +---------+   +---------+ 
     end          start         center      strech
+```
 
 ### Wrapping items
 
