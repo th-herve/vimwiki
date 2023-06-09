@@ -47,8 +47,8 @@ A             B              C
 
 The flexbox operate on two axis.
  
-- `main` axis
-- `cross` axis
+- `main` axis or `flex-direction: row;`
+- `cross` axis or `flex-direction: column;`
 
 By default, the `main axis` is horizontal.
 The `cross axis` is vertical.
