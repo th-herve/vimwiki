@@ -126,7 +126,23 @@ No grouping      Grouped items
 In example B, the two items on the right are group in a common div.
 The flex container treat this div as a single item and does not apply to the items inside.
 
+## Placing flex item
+
+Flex item can be placed more precisely inside their container with the `margin` attributes.
+
+```markdown
+A                B
++---------+      +---------+
+¦◼◼◼      ¦      ¦◼      ◼◼¦
++---------+      +---------+
+default place    margin-left: auto; on the middle item 
+```
+
+
+
+[flexbox cheatsheat](https://flexbox.malven.co/)
 
 [source](https://internetingishard.netlify.app/html-and-css/flexbox/index.html)
 [source2](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
 [source3](https://www.theodinproject.com/lessons/foundations-growing-and-shrinking)
+
