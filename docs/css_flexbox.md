@@ -43,12 +43,35 @@ A             B              C
 - B: `flex: 1;` on each items
 - C: `flex: 1;` on the first two items, `flex: 2;` on the last
 
+## Main-axis and Cross-axis
+
+The flexbox operate on two axis.
+ 
+- `main` axis
+- `cross` axis
+
+By default, the `main axis` is horizontal.
+The `cross axis` is vertical.
+
+They are inverted if the `flex-direction` property is set to `vertical` on the `container`.
+
+```markdown
+---main--->       ---cross--->     
++---------+  |    +---------+  |
+¦         ¦  |    ¦         ¦  |
+¦  ◼   ◼  ¦cross  ¦    ◼    ¦ main 
+¦         ¦  |    ¦    ◼    ¦  |
+¦         ¦  |    ¦         ¦  |
++---------+  ↓    +---------+  ↓ 
+  default        flex-direction: vertical
+```
+>Note: flex-direction: horizontal == default
 
 ## Properties
 
 Some apply to containers and other to items.
 
-### Horizontal alignments
+### Main-axis alignments (horizontal by default)
 
 The `justify-content` property apply to the `container`.
 It defines the horizontal alignments of its items.
@@ -64,10 +87,11 @@ It defines the horizontal alignments of its items.
 +---------+      +---------+
 space-around     space-between
 ```
-### Vertical alignments
+### Cross-axis alignments (vertical by default)
 
 The `align-items` property apply to the `container`.
 It defines the vertical alignments of its items.
+
 ```markdown
 +---------+   +---------+   +---------+   +---------+
 ¦         ¦   ¦   ◼     ¦   ¦         ¦   ¦ █       ¦ 
