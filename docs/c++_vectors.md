@@ -6,7 +6,9 @@
 
 Include the `vector` library and create a vector with:
 
+```cpp
 std::vector<type> <name>;
+```
 
 ```cpp
 #include <vector>
