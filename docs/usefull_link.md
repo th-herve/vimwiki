@@ -12,8 +12,10 @@
 - [html and css tuto](https://internetingishard.netlify.app/index.html)
 - How to set up google [oAuth](https://developers.google.com/identity/protocols/oauth2/web-server#python) on a flask app
 - use https for testing in [flask](https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https)
-- [flexbox cheatsheat](https://flexbox.malven.co/)
-
+- [Flexbox cheatsheat](https://flexbox.malven.co/)
+- [Flexbox interactive guide](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+- [Flexbox properties guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties)
+ 
 ## Learn
 
 - [Missing semester](https://missing.csail.mit.edu)
