@@ -78,9 +78,11 @@ It defines the vertical alignments of its items.
     end          start         center      strech
 ```
 
+> You can target a specific item with `align-self` attribute on the item.
+
 ### Wrapping items
 
-Let the overvlow item wrap and create a grid with the `flex-wrap` property.
+Let the overflow item wrap and create a grid with the `flex-wrap` property.
 It apply to the `container`.
 
 ```markdown
@@ -128,7 +130,7 @@ The flex container treat this div as a single item and does not apply to the ite
 
 ## Placing flex item
 
-Flex item can be placed more precisely inside their container with the `margin` attributes.
+`Flex item` can be placed more precisely inside their container with the `margin` attributes.
 
 ```markdown
 A                B
@@ -138,6 +140,15 @@ A                B
 default place    margin-left: auto; on the middle item 
 ```
 
+## Gap property
+
+Applied on the `flex container`, set a gab between the items.
+
+```css
+.container {
+  gap: 2px;
+}
+```
 
 
 [flexbox cheatsheat](https://flexbox.malven.co/)
