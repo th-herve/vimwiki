@@ -24,6 +24,7 @@
 - [Vector](c++_vectors)
 - [Stacks](c++_stacks)
 - [Queue](c++queue)
+- [Sets](c++_sets)
 
 
 ## Library
