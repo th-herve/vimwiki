@@ -25,6 +25,7 @@
 - [Stacks](c++_stacks)
 - [Queue](c++queue)
 - [Sets](c++_sets)
+- [Hash maps](c++_hash_maps.md)
 
 
 ## Library
