@@ -50,7 +50,7 @@ Some apply to containers and other to items.
 
 ### Horizontal alignments
 
-The `justify-content` attributes apply to the `container`.
+The `justify-content` property apply to the `container`.
 It defines the horizontal alignments of its items.
 
 ```markdown
@@ -66,7 +66,7 @@ space-around     space-between
 ```
 ### Vertical alignments
 
-The `align-items` attributes apply to the `container`.
+The `align-items` property apply to the `container`.
 It defines the vertical alignments of its items.
 ```markdown
 +---------+   +---------+   +---------+   +---------+
@@ -78,7 +78,7 @@ It defines the vertical alignments of its items.
     end          start         center      strech
 ```
 
-> You can target a specific item with `align-self` attribute on the item.
+> You can target a specific item with `align-self` property on the item.
 
 ### Wrapping items
 
@@ -96,8 +96,8 @@ It apply to the `container`.
 ```  
 ### Flex direction
 
-The `flex-direction` attributes apply to the `container`.
-It refers wheter its items are render horizontally or vertically.
+The `flex-direction` property apply to the `container`.
+It refers whether its items are render horizontally or vertically.
 
 ```markdown
 +---------+   +---------+
@@ -109,7 +109,7 @@ It refers wheter its items are render horizontally or vertically.
     row          column
 ```
 
->Note: When rotating the direction of a container, the attributes `justify-content` and `align-items`
+>Note: When rotating the direction of a container, the properties `justify-content` and `align-items`
 > are inverted [More on this.](https://internetingishard.netlify.app/html-and-css/flexbox/index.html#alignment-considerations)
 
 ## Grouping flex items
@@ -130,7 +130,7 @@ The flex container treat this div as a single item and does not apply to the ite
 
 ## Placing flex item
 
-`Flex item` can be placed more precisely inside their container with the `margin` attributes.
+`Flex item` can be placed more precisely inside their container with the `margin` property.
 
 ```markdown
 A                B
