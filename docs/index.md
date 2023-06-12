@@ -2,10 +2,11 @@
 
 ## Programming
 
-- [C](c)
 - [C++](c++)
 - [C#](csharp)
+- [C](c)
 - [Python](python)
+- [Javascript](javascript.md)
 - [Web](web)
 - [Sqlite3](sqlite3)
 
