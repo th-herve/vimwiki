@@ -4,3 +4,4 @@
 - [Operators](js_operators.md)
 - [Functions](js_functions.md)
 - [Arrays](js_arrays.md)
+- [Loops](js_loops)
