@@ -110,6 +110,8 @@ div.classList.remove('new');
 
 div.classList.toggle('active');
 ```
+> `!!` There is no dot when adding a class, it is `("className")` not (".className")
+ 
 >Note: it is better to use `.toggle` rather than add or remove.
 
 ##### Adding text content
