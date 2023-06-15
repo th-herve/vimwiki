@@ -22,14 +22,15 @@ btn.addEventListener("click", () => {
 ```
 ## Attach listener to a group of nodes
 
-Use `.querySelectorAll` and then add the listener on that element.
+Use `.querySelectorAll` and then add the listener on that element. Then the
+`forEach` keyword.
 
 ```js
-const btn = document.querySelectorAll("button");
-btn.addEventListener("click", () => {
-    alert("Hello!");
-});
+const buttons = document.querySelectorAll("button");
 
+buttons.forEach(btn => btn.addEventListener("click", () => {
+    alert("Hello");
+}));
 ```
 
 ## Named function
