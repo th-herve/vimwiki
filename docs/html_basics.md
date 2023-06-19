@@ -13,7 +13,7 @@
     <meta name="viewport" content="initial-scale=1, width=device-width">
 
     <!--import the js file-->
-    <script src="javascript.js"> </script>
+    <script src="javascript.js" defer> </script>
   </head>
 
   <body class="body" id="personal-id">
