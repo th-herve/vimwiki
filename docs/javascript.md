@@ -2,6 +2,7 @@
 
 - [Basics](js_basics.md)
 - [Objects](js_objects.md)
+- [Arrays methods](js_arrays_methods.md)
 
 
 ## Web
