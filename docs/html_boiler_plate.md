@@ -7,6 +7,9 @@
   <head>
     <meta charset="UTF-8">
     <title>My First Webpage</title>
+    
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
   </head>
 
   <body>
