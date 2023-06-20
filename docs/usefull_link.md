@@ -15,6 +15,13 @@
 - [Flexbox cheatsheat](https://flexbox.malven.co/)
 - [Flexbox interactive guide](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 - [Flexbox properties guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties)
+
+## Css library
+
+- [Feather icon](https://feathericons.com/?query=warn)
+- [The nound project](https://thenounproject.com/browse/icons/term/free/)
+- [Ionic](https://ionic.io/ionicons)
+- [Material](https://fonts.google.com/icons)
  
 ## Learn
 

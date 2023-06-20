@@ -24,8 +24,8 @@
 
 ## Other
 
-- [International keyboard](international_keyboard)
 - [Usefull link](usefull_link)
+- [International keyboard](international_keyboard)
 - [Search_info](search_info)
 - [chezmoi_dotfiles](chezmoi_dotfiles)
 
