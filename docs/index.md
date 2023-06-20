@@ -13,7 +13,7 @@
 ## General
 
 - [Linux](linux)
-- [Vim](vim)
+- [Nvim](nvim)
 - [Markdown](markdown)
 - [PowerShell](powershell)
 - [Git](git)

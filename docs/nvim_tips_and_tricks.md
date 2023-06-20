@@ -1,5 +1,5 @@
 
-# Vim tips and trick
+# Nvim tips and trick
 
 ## auto increment list
 

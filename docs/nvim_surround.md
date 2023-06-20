@@ -1,4 +1,4 @@
-# surround
+# Nvim surround
 
 - ds"   | delete 
 - cs"'  | replace 
