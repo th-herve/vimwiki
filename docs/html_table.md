@@ -121,3 +121,23 @@ It is useful for styling with css.
   <tbody/>
 <table/>
 ```
+
+## Scope
+
+To make the table easier to read for screen reader, use the `scope` attribute on the header.
+Either for column or row.
+
+The value possible are: `row`, `col`, `colgroup` and `rowgroup`.
+
+```html
+<table>
+  <tr>
+    <th scope="col">Header 1<th/>
+    <th scope="col">Header 2<th/>
+  <tr/>
+  <tr>
+    <td>1st row first cell<td/>
+    <td>1st row second cell<td/>
+  <tr/>
+<table/>
+```
