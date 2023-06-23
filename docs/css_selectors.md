@@ -54,7 +54,7 @@ Select with `#`
     background-color: green;
 }
 ```
-> Note: Id tend to be overuse by beginner. Most of the time a class is do the trick.
+> Note: Id tend to be overuse by beginner. Most of the time a class do the trick.
 
 ## Select several selector
 
