@@ -50,4 +50,9 @@ First one:
 - 1 class, pseudo-class, attribute
 - 2 elements
 
+### Note
+
+- `*` has a specificity of 0,0,0,0 
+- `!important` take precedence over everything (except another !important)
+
 [source](https://css-tricks.com/specifics-on-css-specificity/)
