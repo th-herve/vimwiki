@@ -60,10 +60,7 @@ Select with `#`
 
 ### Grouping selector
 
-If two distinct groups of elements share some style.
-Join them with a coma separated list.
-
-You can still add unique declaration afterward.
+Apply the same style to several element.
 
 ```css
 .my-class,
@@ -82,18 +79,15 @@ You can still add unique declaration afterward.
 ```
 ### Chaining selectors
 
-Sometimes, Html element have several selector, with some common with others, like in the example below.
+Narrow a selection by selecting element with several selector.
+Simply write the selector one after the other without space to select the elements that has all those selector.
 
 ```html
 <div class="my-class my-other-class">text</div>
 <div class="my-class" id="my-id">other text</div>
 ```
-If both class `my-class` have some common style, but we want to add specific ones for each element,
-we can narrow the selection by using `chaining selectors`.
-
-Simply write the selector one after the other without space.
-
 ```css
+/* select element that has both my-class and my-other-class */
 .my-class.my-other-class {
     color red;
 }
@@ -102,24 +96,74 @@ Simply write the selector one after the other without space.
     color: blue;
 }
 ```
-It select the element that has both selectors.
-
-It work with all selector, but with `type selector` you can only chain one. If we want to 
-chain a div and a p it does not work. Because it gives us `divp`
+>Note: you can chain as many selector as needed, but with `type selector` you can only chain one. 
+> If we want to chain a div and a p it does not work. Because it gives us `divp`
 
 ### Descendant combinator
 
-`Combinators` take into consideration `relationship` between selector.
-
-A `descendant combinator` will only select the last element listed if it has a parent selector 
+A `descendant combinator` will only select the last element listed if it has a parent (or grandparent) selector 
 that matches the previous one.
 
-Use one by separating selector by a space. Only the `last child` element is selected.
+Use it by separating selector by a space. Only the `last child` element is selected.
 
 ```css
-.parent .child {
+/* will select every div in the .parent container, including child, grandchild... */
+.parent div {
     color: blue;
 }
 ```
 > Note: you can add has many ancestor as you want. But avoid it.
 
+### > selector
+
+The `>` selector is similar to the descendant combinator but only select 
+the last element if it is a direct child of the previous selector.
+
+```css
+/* select every direct child div in the .parent element */
+.parent > div {
+    color: blue;
+}
+
+/* select every grandchild div in the .parent element and that are inside another div */
+.parent > div > div {
+    color: blue;
+}
+```
+What would be selected:
+```html
+<main class="parent">
+    <div>.parent > div</div>
+    <div>
+        <div>.parent > div > div</div>
+    </div>
+</main>
+```
+
+### + selector
+
+The `+` selector will select the element adjacent to the first one and 
+at the same level of indentation. (It's weird, just look the example)
+
+```css
+.group1 + div {...}
+.group1 + div + div {...}
+```
+```html
+<div class="group1"> Not selected </div>
+<div class="group2"> selected by: .group1 + div </div>
+<div class="group3"> selected by: .group1 + div + div </div>
+```
+
+### ~ selector (sibling combinator)
+
+Select all element's sibling. Without selecting the element itself.
+
+```css
+.group1 ~ div {...}
+```
+```html
+<div class="group1"> Not selected </div>
+<div class="group2"> Selected </div>
+<div class="group3"> Selected </div>
+```
