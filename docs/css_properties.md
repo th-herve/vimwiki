@@ -15,3 +15,7 @@ Common properties and example of value.
 ## Placement
 
 text-align: align text horizontally
+
+[all properties](https://css-tricks.com/almanac/properties/)
+[also all properties](https://www.w3schools.com/cssref/index.php)
+

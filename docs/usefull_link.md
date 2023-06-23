@@ -15,6 +15,8 @@
 - [Flexbox cheatsheat](https://flexbox.malven.co/)
 - [Flexbox interactive guide](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 - [Flexbox properties guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties)
+- [css all properties list](https://css-tricks.com/almanac/properties/)
+- [css another all properties list](https://www.w3schools.com/cssref/index.php)
 
 ## Svg library
 
