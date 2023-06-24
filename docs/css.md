@@ -5,6 +5,7 @@
 - [Units](css_units.md)
 - [Advanced selectors](css_advanced_selectors.md)
 - [Specificity](css_specificity.md)
+- [Functions](css_functions.md)
 
 - [Css reset](css_reset.md)
 - [Font](css_fonts.md)
