@@ -16,6 +16,10 @@ Common properties and example of value.
 
 text-align: align text horizontally
 
+## Position
+
+- [Position property](css_position_property.md)
+
+
 [all properties](https://css-tricks.com/almanac/properties/)
 [also all properties](https://www.w3schools.com/cssref/index.php)
-
