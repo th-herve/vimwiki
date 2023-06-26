@@ -92,13 +92,13 @@ This work to create 3 pair of <p> and <a> in the second div:
 
 Attribute operators
 
-| operator | description                     | example            |
-|----------|---------------------------------|--------------------|
-| .        | class                           | div.class1.class2  |
-| #        | id                              | span#id1           |
-| []       | custom attribute                | a[href="link"]     |
-| $        | number (with the * op)          | ul>li.item$*4      |
-| @        | use with $, change the ordering | ul>li.item$@*4     |
-| {}       | add text inside tag             | button{click me}   |
+| operator | description                     | example               |
+|----------|---------------------------------|-----------------------|
+| .        | class                           | div.class1.class2     |
+| #        | id                              | span#id1              |
+| []       | custom attribute                | a[href="link" rel=""] |
+| $        | number (with the * op)          | ul>li.item$*4         |
+| @        | use with $, change the ordering | ul>li.item$@*4        |
+| {}       | add text inside tag             | button{click me}      |
 
 >Note: the "*" in the table are not visible in vimwiki 
