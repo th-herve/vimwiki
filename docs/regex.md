@@ -1,6 +1,5 @@
 # Regex
 
-
 ## Flag
 
 Flag are modifier that change the output of a regex expression.  
