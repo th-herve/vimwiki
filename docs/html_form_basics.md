@@ -103,7 +103,7 @@ All the option must have the same `name` attibute.
 </div>
 ```
 
-## Radio buttons
+## Radio checkboxes
 
 Checkbox where only one option can be checked.
 It is an `<input>` with the `type` set as `radio`.
