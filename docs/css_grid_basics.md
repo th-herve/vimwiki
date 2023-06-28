@@ -41,6 +41,8 @@ If we had three item in the div container, it would gives us:
 +-----+  
 ```
 
+You can also use the function [repeat()](css_grid_advanced.md) to specify the row and column.
+
 ## Explicit vs implicit grid
 
 In the example above we have a grid of 2 row and 3 columns,
