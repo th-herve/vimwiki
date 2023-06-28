@@ -41,7 +41,7 @@ If we had three item in the div container, it would gives us:
 +-----+  
 ```
 
-You can also use the function [repeat()](css_grid_advanced.md) to specify the row and column.
+# You can also use the function [repeat()](css_grid_advanced.md) to specify the row and column.
 
 ## Explicit vs implicit grid
 
@@ -61,5 +61,5 @@ is defined with `grid-auto-columns: 0px;`.
 
 ## Gap
 
-The gap, also known as gutter or alley, is defined with
-`column-gap: 0px` and `row-gap: 0px;`
+The gap, also known as gutter or alley, is defined on the `container` with
+`column-gap: 0px` and `row-gap: 0px;` or just `gap: 0px;`
