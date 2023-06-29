@@ -112,7 +112,7 @@ Need to use the flag `-P` to use them
 In nvim, the syntax is different,
 If we want to select text, depending on the 'look' word:
 
-|          | Lookbehind    | lookahead    |
-|----------|---------------|--------------|
-| positive | (look)@<=text | (look)@=text |
-| negative | (look)@<!text | (look)@!text |
+|          | Lookbehind       | lookahead       |
+|----------|------------------|-----------------|
+| positive | \(look\)\@<=text | \(look\)\@=text |
+| negative | \(look\)\@<!text | \(look\)\@!text |
