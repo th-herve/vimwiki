@@ -17,6 +17,7 @@
 - [Flexbox properties guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties)
 - [css all properties list](https://css-tricks.com/almanac/properties/)
 - [css another all properties list](https://www.w3schools.com/cssref/index.php)
+- [Javascript this keyword explanation](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
 
 ## Svg library
 
