@@ -2,7 +2,7 @@
 
 ## Create an object
 
-```js
+```javascript
 let user = {
     name: "John",
     age: 30,
@@ -19,29 +19,10 @@ let user = {
 >Note: this method of creating an object is known as `object literal`, 
 > another method is the use a `constructors`(see below).
 
-## Object constructors
-
-Object constructors provide an easier way to create several similar objects.
-
-By convention, constructor start with a capital letter.
-
-```js
-function Person(name) {
-    this.name = name;
-    this.introduction = function () {
-        console.log(`Hi my name is ${this.name}`);
-    };
-}
-```
-To create an object with a constructor, use the `new` keyword.
-
-```js
-const bob = new Person("Bob");
-```
 
 ## Access value
 
-```js
+```javascript
 user.name;
 user.name();
 
@@ -52,7 +33,7 @@ user["name"];
 
 ## Remove value
 
-```js
+```javascript
 delete user.age;
 ```
 
@@ -60,7 +41,7 @@ delete user.age;
 
 Use `for...in` loop.
 
-```js
+```javascript
 for (let key in object) {
     // code
 }
@@ -68,7 +49,7 @@ for (let key in object) {
 
 ## Test property existence
 
-```js
+```javascript
 if (keyName in user) {...}
 
 // or
