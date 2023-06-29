@@ -88,7 +88,7 @@ div {
   display: grid;
   width: 1000px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
+K
 ```
 
 Most of the time, `auto-fit` and `auto-fill` behave the same.

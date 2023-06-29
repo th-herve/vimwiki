@@ -43,6 +43,8 @@ Adjust the position with the property `top`, `left`, `bottom`, `right`.
 It remove the element from the `flow` of the document, and if overused can
 reduce the flexibility of a site.
 
+[How to center an absolute element](css_center_absolute_element.md)
+
 ## Fixed
 
 Position relative to the `viewport`. Meaning the position does not change if
