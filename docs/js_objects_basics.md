@@ -18,6 +18,7 @@ let user = {
 
 >Note: this method of creating an object is known as `object literal`, 
 > another method is the use of a [constructor](js_object_constructors.md).
+> Prefer using a constructor
 
 
 ## Access value
