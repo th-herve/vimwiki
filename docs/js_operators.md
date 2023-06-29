@@ -56,7 +56,7 @@ In Javascript, logical operator offer more feature than just manipulating boolea
 
 In this statement, the or operators work as follow.
 
-```js
+```javascript
 let value1 = "";                     // false
 let value2 = "";                     // false
 let value3 = "hello";                //true

@@ -5,7 +5,7 @@ you need to first convert it to an array:
 
 [List of methods](https://javascript.info/array-methods)
 
-```js
+```javascript
 const array = Array.from(document.querySelectorAll("div"));
 
 // or 
@@ -17,7 +17,7 @@ const array = [...document.querySelectorAll("div")];
 
 Return a sub array that meet the filter requirement (return true)
 
-```js
+```javascript
 const result = array.filter(item => {
         if (item.number > 100) {
             return true;
@@ -33,7 +33,7 @@ const result = array.filter(item => item.number > 100);
 
 Map return an array with the `same` number of item than the one given.
 
-```js
+```javascript
 const result = array.map(item => `${item.name} ${item.lastName}`);
 ```
 
@@ -45,7 +45,7 @@ The sorting function must be specify.
 
 It work by returning 1 or -1 meaning moving a to up or down.
 
-```js
+```javascript
 const result = array.sort(function(a, b) {
     if (a.age > b.age) {
         return 1;
@@ -63,7 +63,7 @@ const result = array.sort((a, b) => a.age > b.age ? 1 : -1);
 
 ## array.reduce()
 
-```js
+```javascript
 const result = array.reduce((accumulator, item) => {
     return accumulator + item.number;
 },0);
@@ -77,7 +77,7 @@ Check if at least one item in the array is true.
 
 Return `true` or `false`.
 
-```js
+```javascript
 // return true if one of the item is superior to 20
 const result = array.some(item => {
     return item > 20;
@@ -91,7 +91,7 @@ Check if all item in the array are true.
 
 Return `true` or `false`.
 
-```js
+```javascript
 // return true if all the items are superior to 20
 const result = array.every(item => {
     return item > 20;
@@ -101,12 +101,12 @@ const result = array.every(item => {
 
 ## array.find()
 
-```js
+```javascript
 const result = array.find(item => array.name === "myName");
 ```
 
 ## array.findIndex()
 
-```js
+```javascript
 const index = array.findIndex(item => item.id === 321);
 ```

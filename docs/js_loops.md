@@ -6,7 +6,7 @@ for (initialiser; condition; final-expression) {
     // code to run
 }
 
-```js
+```javascript
 for (let i = 0; i < 100; i++) {
 
 }
@@ -19,7 +19,7 @@ Javascript offer several ways to loop over a given collection, like an array.
 
 The `for...of` loop is a basic tool for looping over a collection.
 
-```js
+```javascript
 const names = ["Paul", "Henry", "Tanya"];
 
 for (const name of names) {
@@ -32,7 +32,7 @@ for (const name of names) {
 Do something for each item in a collection and create a new collection
 with `map()`.
 
-```js
+```javascript
 const upperNames = names.map(toUpper);
 ```
 
@@ -41,13 +41,13 @@ const upperNames = names.map(toUpper);
 Test each item in a collection, and create a new one with only the matching items
 with `filter()`.
 
-```js
+```javascript
 const filteredNames = names.filter(name => name.startsWith("P"));
 ```
 
 ## While loop
 
-```js
+```javascript
 while (i < names.length) {
     // code to run
     
@@ -57,7 +57,7 @@ while (i < names.length) {
 
 ## do...while loop
 
-```js
+```javascript
 let i = 0;
 
 do {

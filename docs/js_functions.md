@@ -8,7 +8,7 @@ function [functionName]([parameter]) {
     declaration;
 }
 
-```js
+```javascript
 function myFunction() {
     console.log("hello");
 }
@@ -18,14 +18,14 @@ function myFunction() {
 
 An `anonymous funciton` doesn't have a name.
 
-```js
+```javascript
 (function () {
     console.log("hello");
 });
 ```
 It is mostly use when a function expect another function as parameter.
 
-```js
+```javascript
 textBox.addEventListener("keydown", function (event) {
     console.log(`you pressed "${event.key}"`);
 });
@@ -37,7 +37,7 @@ An alternative to anonymous functions are `arrow functions`.
 
 Instead of `function (event)`, you use `(event) =>`.
 
-```js
+```javascript
 textBox.addEventListener("keydown", (event) => {
     console.log(`you pressed "${event.key}"`);
     });

@@ -4,7 +4,7 @@ Object constructors provide an easier way to create several similar objects.
 
 By convention, constructor start with a capital letter.
 
-```js
+```javascript
 function Person(name) {
     this.name = name;
     this.introduction = function () {
@@ -14,6 +14,6 @@ function Person(name) {
 ```
 To create an object with a constructor, use the `new` keyword.
 
-```js
+```javascript
 const bob = new Person("Bob");
 ```

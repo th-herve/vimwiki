@@ -12,7 +12,7 @@ The first method is usually the best (The two other are cover at the end).
 
 This is usually the best method.
 
-```js
+```javascript
 <button id="btn">Click Me Too</button>
 
 const btn = document.querySelector("#btn");
@@ -25,7 +25,7 @@ btn.addEventListener("click", () => {
 Use `.querySelectorAll` and then add the listener on that element. Then the
 `forEach` keyword.
 
-```js
+```javascript
 const buttons = document.querySelectorAll("button");
 
 buttons.forEach(btn => btn.addEventListener("click", () => {
@@ -37,7 +37,7 @@ buttons.forEach(btn => btn.addEventListener("click", () => {
 
 Regardless of the methods used, a named function can be used instead of an `arrow function`.
 
-```js
+```javascript
 function myFunction() {
     console.log("Hello");
 }
@@ -52,7 +52,7 @@ Regardless of the methods used, the event can be passed as argument in the funct
 It passes an object that references the `event` itself.
 It gives access to properties and methods such as the key pressed, or the DOM node clicked...
 
-```js
+```javascript
 btn.addEventListener("click", function (e) {
     console.log(e.target);
     e.target.style.background = "blue";
@@ -74,7 +74,7 @@ btn.addEventListener("click", function (e) {
 
 ### On the DOM node
 
-```js
+```javascript
 <button id="btn">Click Me</button>
 
 const btn = document.querySelector('#btn');

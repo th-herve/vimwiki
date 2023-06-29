@@ -23,7 +23,7 @@ Relational:
 - `firsElementChild`
 - `lastElementChild`
 
-```js
+```javascript
 const container = document.querySelector('#container');
 
 const x = container.firsElementChild
@@ -49,7 +49,7 @@ Each nodes of the DOM are object with properties and methods that allow web page
 
 document.createElement(tagName, [option])
 
-```js
+```javascript
 const div = document.createElement('div');
 ```
 >Note: it only creates the element, it does not insert it in the DOM.
@@ -69,7 +69,7 @@ You can use a reference to an element to alter its properties.
 
 #### Adding inline style
 
-```js
+```javascript
 // create a reference
 const div = document.createElement('div');
 
@@ -94,7 +94,7 @@ setAttribute(attributesType, attributesName);
 
 If the `attributesName` provided does not exitst, it create it.
 
-```js
+```javascript
 div.setAttribute('id', 'theDiv');
 
 div.getAttribute('id'); // will return 'theDiv'
@@ -103,7 +103,7 @@ div.removeAttribute('id');
 ```
 With `classes`:
 
-```js
+```javascript
 div.classList.add('new');
 
 div.classList.remove('new');
@@ -116,13 +116,13 @@ div.classList.toggle('active');
 
 ##### Adding text content
 
-```js
+```javascript
 div.textContent = "Hello, World!";
 ```
 
 ##### Adding HTML content
 
-```js
+```javascript
 div.innerHTML = "<span>Hello, World!</span>";
 ```
 >Note: `textContent` should be prefer because less prone to javascript injection. 

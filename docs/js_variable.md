@@ -4,7 +4,7 @@
 
 Declare a variable with the keyword `let` (or `var`).
 
-```js
+```javascript
 let myVariable;
 
 let otherVariable = 3;
@@ -15,7 +15,7 @@ let otherVariable = 3;
 
 Declare a constant with the keyword `const`.
 
-```js
+```javascript
 const five = 5;
 ```
 
@@ -24,6 +24,6 @@ are known prior to execution.
 
 In that case use `Uppercase snake_case` for the name.
 
-```js
+```javascript
 const COLOR_RED = "#F00"
 ```

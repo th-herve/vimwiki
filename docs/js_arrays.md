@@ -4,7 +4,7 @@
 
 const [array_name] = [item1, item2...];
 
-```js
+```javascript
 const cars = ["Saab", "Volvo", "Bmw"];
 ```
 >It is common practice to declare arrays with the `const` keyword.
@@ -13,7 +13,7 @@ const cars = ["Saab", "Volvo", "Bmw"];
 
 Use `[]`
 
-```js
+```javascript
 let car = cars[0];
 
 cars[1] = "Opel";
