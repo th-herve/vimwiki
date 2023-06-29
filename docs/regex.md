@@ -109,6 +109,10 @@ Need to use the flag `-P` to use them
 | Positive lookbehind | Code: 109 price: $5 | / (?<=$)\d+/g  | 5      |
 | Negative lookbehind | Code: 109 price: $5 | / (?<!\$)\d+/g | 109    |
 
+In nvim, the syntax is different,
+If we want to select text, depending on the 'look' word:
 
-
-
+|          | Lookbehind    | lookahead    |
+|----------|---------------|--------------|
+| positive | (look)@<=text | (look)@=text |
+| negative | (look)@<!text | (look)@!text |
