@@ -20,6 +20,7 @@
 - [Tmux](tmux)
 - [Regex](regex)
 - [Qtile](qtile)
+- [Dwm](dwm_custom_keybind.md)
 
 
 ## Other
