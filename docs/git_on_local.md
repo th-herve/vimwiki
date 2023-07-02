@@ -20,7 +20,7 @@
     git branch <new branch>
     ```
 5. merge the branches, in terminal in the branch to merge with (ex: master)
-    ```C#
+    ```bash
     // in branch mater
     git merge <branch to merge with master>
     ```
