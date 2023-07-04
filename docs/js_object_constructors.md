@@ -12,8 +12,12 @@ function Person(name) {
     };
 }
 ```
+>`!!` Avoid declaring function in a constructor. Declare them in a `prototype`. 
+
 To create an object with a constructor, use the `new` keyword.
 
 ```javascript
 const bob = new Person("Bob");
 ```
+> `!!` Do not forget the `new` keyword, it won't raise errors but will
+> result in unwanted behavior.
