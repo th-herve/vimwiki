@@ -12,7 +12,7 @@ function Person(name) {
     };
 }
 ```
->`!!` Avoid declaring function in a constructor. Declare them in a `prototype`. 
+>`!!` Avoid declaring function in a constructor. Declare them in a [prototype](js_objects_prototype).
 
 To create an object with a constructor, use the `new` keyword.
 
