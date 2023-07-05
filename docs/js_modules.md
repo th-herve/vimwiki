@@ -24,4 +24,7 @@ const calculator = ( () => { // open parenthesis here
         div,
     };
 }) (); // close parenthesis here, and add a pair
+
+calculator.add(3, 5);
+calculator.sub(3, 5);
 ```
