@@ -17,6 +17,8 @@ class User {
 
 // create an instance
 let user = new User("Bob");
+user.name       // Bob
+user.sayName() //Bob
 ```
 
 ## Getters/setters
