@@ -6,3 +6,5 @@
 
 - [Factory functions](js_factory_functions.md)
 - [Closure](js_closure.md)
+
+- [Classes](js_classes.md)
