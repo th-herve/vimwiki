@@ -8,3 +8,4 @@
 - [Closure](js_closure.md)
 
 - [Classes](js_classes.md)
+- [Module pattern](js_module_pattern.md)
