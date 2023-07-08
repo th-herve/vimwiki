@@ -42,3 +42,5 @@ module.exports = {
 
 Run:
 > npx webpack --config webpack.config.js
+
+[source](https://webpack.js.org/guides/getting-started/)
