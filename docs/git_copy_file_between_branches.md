@@ -1,4 +1,4 @@
-# Copying a File from One Git Branch to Another
+# Copying a file from One Git Branch to Another
 
 You can copy one file that exist in a branch to another one that does
 not have it.
