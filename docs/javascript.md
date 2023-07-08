@@ -1,9 +1,8 @@
 # Javascript
 
 - [Basics](js_basics.md)
-- [Objects](js_objects.md)
+- [ Objects](js_objects.md)
 - [Arrays methods](js_arrays_methods.md)
-
 
 ## Web
 
@@ -11,3 +10,7 @@
 - [The DOM](js_dom.md)
 - [DOM manipulation](js_dom_manipulation.md)
 - [Events](js_events.md)
+
+## Other
+
+- [npm](js_npm.md)
