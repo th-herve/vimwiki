@@ -1,11 +1,19 @@
 # Git
 
+## Basics
+
 - [Github](github)
 - [Git on local](git_on_local)
-- [Git command](git_command)
-- [Git stash](git_stash)
-- [Git configuration](git_configuration)
-- [Git track bug with bisect](git_track_bug_bisect)
-- [Git add part of a file](git_add_part_file)
+- [Command](git_command)
 
+## Advanced
+
+- [Stash](git_stash)
+- [Track bug with bisect](git_track_bug_bisect)
+- [Add part of a file](git_add_part_file)
+- [Copying a File from One Git Branch to Another](git_copy_file_between_branches.md)
+ 
+## Other
+
+- [Configuration](git_configuration)
 - [Write good commit](git_commit_message)
