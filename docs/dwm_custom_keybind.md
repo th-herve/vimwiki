@@ -26,6 +26,7 @@
 | mod d            | dmenu start program                       |
 | mod z            | exit menu                                 |
 | mod c            | vimwiki rofi                              |
+| mod n            | network menu                              |
 | mod return       | spawn terminal                            |
 
 ## Layout
@@ -38,12 +39,14 @@
 | mod r            | deck layout    (stack fullscreen)         |
 | mod+ctrl space   | toggle floating                           |
 | mod+shift space  | toggle 2 last layout                      |
-| mod i/p          | increase/decrease number of master window |
+| mod o/p          | increase/decrease number of master window |
 | mod h/l          | increase/decrease window size             |
 | mod+shift return | toggle window master/stack                |
 
 ## Other
 
-| keybind          | description                               |
-|------------------|-------------------------------------------|
-| mod b            | toggle bar                                |
+| keybind | description   |
+|---------|---------------|
+| mod b   | toggle bar    |
+| mod u   | us keyboard   |
+| mod i   | intl keyboard |
