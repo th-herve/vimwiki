@@ -22,6 +22,7 @@ Run :Git or :G followed by a git command
 | ga.                  | add all          |
 | gcm                  | commit with msg  |
 | gc                   | commit buffer    |
+| gp                   | push             |
 
 ## Resolve merge conflict
 
