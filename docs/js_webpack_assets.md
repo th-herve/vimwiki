@@ -47,6 +47,16 @@ You can import the css file from a Javascript module.
     
     document.appendChild(myIcon);
     ```
+    
+    Or
+    
+    ```javascript
+    import iconImage from './icon.png';
+    
+    const icon = document.createElement("img");
+    img.src = iconImage;
+    website.appendChild(icon);
+    ```
 
 ## Fonts
 
