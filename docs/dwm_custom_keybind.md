@@ -27,6 +27,7 @@
 | mod z            | exit menu                                 |
 | mod c            | vimwiki rofi                              |
 | mod n            | network menu                              |
+| mod shift n      | bluetooth menu                            | (laptop only)
 | mod return       | spawn terminal                            |
 
 ## Layout
