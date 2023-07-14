@@ -30,7 +30,6 @@
 - [Search_info](search_info)
 - [chezmoi_dotfiles](chezmoi_dotfiles)
 
-
 - [Vimwiki](vimwiki)
 - [Todo](todo)
 - [Cs61](cs61)

@@ -1,7 +1,7 @@
 # Javascript
 
 - [Basics](js_basics.md)
-- [ Objects](js_objects.md)
+- [Objects](js_objects.md)
 - [Arrays methods](js_arrays_methods.md)
 
 ## Web
@@ -16,4 +16,3 @@
 - [npm](js_npm.md)
 - [Webpack](js_webpack_index.md)
 - [Import/export modules](js_import_export_module.md)
-
