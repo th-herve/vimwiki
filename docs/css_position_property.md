@@ -43,6 +43,17 @@ Adjust the position with the property `top`, `left`, `bottom`, `right`.
 It remove the element from the `flow` of the document, and if overused can
 reduce the flexibility of a site.
 
+Center in the middle:
+
+```javascript
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
 [How to center an absolute element](css_center_absolute_element.md)
 
 ## Fixed
