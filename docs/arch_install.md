@@ -216,12 +216,22 @@ It's better to umount all the partition with `umount -R /mnt`
 Type `reboot` and remove the installation media
 
 
+# After installing
 
 
 ## Setting up AUR
 
 1. Install dependency
 > sudo pacman -S base-devel (git)
+
+```bash
+git clone https://aur.archlinux.org/yay-git.git 
+cd yay-git
+makepkg -si
+
+# install package like so:
+yay -S packagename
+```
 
 
 ## Setting up standard /home directories
@@ -244,6 +254,11 @@ xdg-users-dirs-update
     > exec i3
 5. startx
 
+You can also install the necessary driver:
+> sudo pacman -S xf86-video-amdgpu
+> sudo pacman -S xf86-video-intel
+Or nvidia 
+
 ## Installing a display manager
 
 For sddm (should be the same for any dm):
@@ -263,3 +278,11 @@ $ amixer sset Headphone unmute
 ```
 To use alsamixer:
 > sudo pacman -S alsa-utils
+
+## Networking security
+
+See DNS securtity and setting up firewall in the arch wiki.
+
+## Style gtk and qt
+
+See wiki.
