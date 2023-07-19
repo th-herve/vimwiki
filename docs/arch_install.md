@@ -224,6 +224,14 @@ Type `reboot` and remove the installation media
 > sudo pacman -S base-devel (git)
 
 
+## Setting up standard /home directories
+
+```bash
+sudo pacman -S xdg-user-dirs
+
+xdg-users-dirs-update
+```
+
 
 ## Installing Xorg
 
@@ -231,6 +239,27 @@ Type `reboot` and remove the installation media
 
 1. sudo pacman -S xorg
 2. sudo pacman -S xorg-server xorg-xinit xorg-twm xorg-xclock xterm3. install a wm or a desktop
-4. create .xinitrc in ~
-5. add line to exec the wm or desktop:
+3. create .xinitrc in ~
+4. add line to exec the wm or desktop:
     > exec i3
+5. startx
+
+## Installing a display manager
+
+For sddm (should be the same for any dm):
+1. sudo pacman -S sddm
+2. sudo systemctl enable sddm.service
+
+
+## Sound
+
+Alsa should be installed by default. By default all channel are muted.
+To unmute:
+
+```bash
+amixer sset Master unmute
+$ amixer sset Speaker unmute
+$ amixer sset Headphone unmute
+```
+To use alsamixer:
+> sudo pacman -S alsa-utils
