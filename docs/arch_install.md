@@ -1,10 +1,20 @@
 # Install arch
 
-TODO Add more info on creating separate /home partition
-
 ## set keyboard layout and font
 
-see wiki
+By default it's a US layout.
+
+To change:
+1. list the available layout:
+    > ls /usr/share/kbd/keymaps/--/-.map.gz (replace the - with asterisk)
+2. select the layout:
+    > loadkeys layoutFileWithoutExtension
+    > ex: loadkeys fr-latin1 (french azerty layout)
+
+If in need of a bigger font:
+> setfont ter-132b (132 is the size, b == bold, n for normal)
+
+List font with ls /usr/share/kbd/consolefonts
 
 ## Verify boot mode
 
@@ -19,7 +29,21 @@ Modern pc should be in UEFI
 
 ## Connect to wifi
 
-see wiki
+1. iwctl
+2. List the devices (ex: wlan0):
+    > device list
+3. If not on:
+    > device {device} set-property Powered on
+4.  Scan (it won't output anything):
+    > station {device} scan
+5. List the network:
+    > station {device} get-networks
+6. Connect:
+    > station {device} connect {network name}
+7. If it does not say wrong password after a few second, it's good
+8. exit
+9. Check with:
+    > ping google.com
 
 ## Partition the disks
 
@@ -51,7 +75,7 @@ and give the rest to the home in sda4.
 ### Format the partition
 
 Use fdisk with the desire disk:
-> fdisk /dev/sda
+> fdisk /dev/sda (or nvme0n, sdb...)
 
 >!! When selecting the type, double check the number with `L`
 
@@ -72,6 +96,7 @@ Use fdisk with the desire disk:
     2. For last sector, press enter if you only want a root partition and no other, otherwise choose the size with +xG
     3. Change the type by pressing `t`, check that the part 3 is selected
     4. Type `83` (20) for Linux file system
+5. Eventually create a home partition, same process as the root
 5. Create additional partition if needed, then press `w` to save the changes
 
 ### Format the partition
@@ -102,6 +127,9 @@ Or you can mount it in /mnt/boot
 For swap (! it's not using mount):
 > swapon /dev/swap_partition
 
+For home:
+> mount --mkdir /dev/home_partition /mnt/home
+
 ### Install the essential packages
 
 Install the base packages and the linux kernel 
@@ -116,16 +144,19 @@ It define how partition are mounted
 
 ### Chroot into the new system
 
->arch-chroot /mnt
+> arch-chroot /mnt
 
 ### Install essential packages
 
-> pacman -S networkmanager neovim vim git sudo firefox kitty...
+> pacman -S networkmanager neovim vim git sudo iwctl firefox kitty...
 
 Enable networkmanager:
 > systemctl enable NetworkManager
 
-!! Check if a firmware is needed for the wifi card, check the name of the card: lspci -k then google it
+!! Check if a firmware is needed for the wifi card, 
+check the name of the card: 
+> lspci -k  (look for network controller)
+then google it or look this [page](https://wiki.archlinux.org/title/Network_configuration/Wireless#Troubleshooting_drivers_and_firmware)
 
 ### Set the time zone
 
@@ -186,6 +217,7 @@ It's better to umount all the partition with `umount -R /mnt`
 Type `reboot` and remove the installation media
 
 
+# After installing
 
 
 ## Setting up AUR
@@ -193,14 +225,65 @@ Type `reboot` and remove the installation media
 1. Install dependency
 > sudo pacman -S base-devel (git)
 
+```bash
+git clone https://aur.archlinux.org/yay-git.git 
+cd yay-git
+makepkg -si
+
+# install package like so:
+yay -S packagename
+```
+
+
+## Setting up standard /home directories
+
+```bash
+sudo pacman -S xdg-user-dirs
+
+xdg-users-dirs-update
+```
 
 
 ## Installing Xorg
 
 >Note: if you install a desktop environment, you might not have to install X11
 
-1. sudo pacman -S xorg-server xorg-xinit
-2. install a wm or a desktop
+1. sudo pacman -S xorg
+2. sudo pacman -S xorg-server xorg-xinit xorg-twm xorg-xclock xterm3. install a wm or a desktop
 3. create .xinitrc in ~
 4. add line to exec the wm or desktop:
     > exec i3
+5. startx
+
+You can also install the necessary driver:
+> sudo pacman -S xf86-video-amdgpu
+> sudo pacman -S xf86-video-intel
+Or nvidia 
+
+## Installing a display manager
+
+For sddm (should be the same for any dm):
+1. sudo pacman -S sddm
+2. sudo systemctl enable sddm.service
+
+
+## Sound
+
+Alsa should be installed by default. By default all channel are muted.
+To unmute:
+
+```bash
+amixer sset Master unmute
+$ amixer sset Speaker unmute
+$ amixer sset Headphone unmute
+```
+To use alsamixer:
+> sudo pacman -S alsa-utils
+
+## Networking security
+
+See DNS securtity and setting up firewall in the arch wiki.
+
+## Style gtk and qt
+
+See wiki.
