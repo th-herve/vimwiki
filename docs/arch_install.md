@@ -95,8 +95,9 @@ For the root partition and home:
 For the root:
 > mount /dev/root_partition /mnt
 
-For the EFI:
+For the EFI boot:
 > mount --mkdir /dev/efi_partition /mnt/boot/efi
+Or you can mount it in /mnt/boot
 
 For swap (! it's not using mount):
 > swapon /dev/swap_partition
