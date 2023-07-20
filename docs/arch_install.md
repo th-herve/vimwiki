@@ -55,7 +55,7 @@ Modern pc should be in UEFI
     1. older pc or BIOS: MBR (But GPT might be use if supported, which is better)
     2. recent or UEFI: GPT
  
-### Partition layout
+#### Partition layout
 
 For MBR, see wiki
 
@@ -72,7 +72,7 @@ For GPT table, the basic partition layout is:
 A separate /home partition can also be used. In that case allocate around 20gib (30 max) for the root
 and give the rest to the home in sda4.
 
-### Format the partition
+#### Partition the disk
 
 Use fdisk with the desire disk:
 > fdisk /dev/sda (or nvme0n, sdb...)
@@ -99,7 +99,7 @@ Use fdisk with the desire disk:
 5. Eventually create a home partition, same process as the root
 5. Create additional partition if needed, then press `w` to save the changes
 
-### Format the partition
+#### Format the partition
 
 Each newly created partition must be formatted
 
@@ -115,14 +115,19 @@ For the root partition and home:
 > mkfs.ext4 /dev/root_partition
 > mkfs.ext4 /dev/sda3
 
-### Mount the file systems
+## Mount the file systems
 
 For the root:
 > mount /dev/root_partition /mnt
 
 For the EFI boot:
+- For Grub mount in: /mnt/boot/efi or /mnt/boot
+- For Systemd-boot: /mnt/boot
 > mount --mkdir /dev/efi_partition /mnt/boot/efi
-Or you can mount it in /mnt/boot
+or
+> mount --mkdir /dev/efi_partition /mnt/boot
+ 
+ 
 
 For swap (! it's not using mount):
 > swapon /dev/swap_partition
@@ -130,23 +135,20 @@ For swap (! it's not using mount):
 For home:
 > mount --mkdir /dev/home_partition /mnt/home
 
-### Install the essential packages
+## Install the base packages
 
-Install the base packages and the linux kernel 
 > pacstrap -K /mnt base linux linux-firmware
 
-## Configure the system
-
-### Generate an fstab
+## Generate an fstab
 
 It define how partition are mounted
 > genfstab -U /mnt >> /mnt/etc/fstab
 
-### Chroot into the new system
+## Chroot into the new system
 
 > arch-chroot /mnt
 
-### Install essential packages
+## Install needed packages
 
 > pacman -S networkmanager neovim vim git sudo iwctl firefox kitty...
 
@@ -158,12 +160,12 @@ check the name of the card:
 > lspci -k  (look for network controller)
 then google it or look this [page](https://wiki.archlinux.org/title/Network_configuration/Wireless#Troubleshooting_drivers_and_firmware)
 
-### Set the time zone
+## Set the time zone
 
 > ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime
 > hwclock --systohc
 
-### Set localization
+## Set localization
 
 Edit /etc/locale.gen and uncomment the needed locales.
 Uncomment `en_US.UTF-8 UTF-8`
@@ -172,19 +174,19 @@ and/or `fr_FR.UTF-8 UTF-8`
 Then generate the locales file with:
 > locale-gen
 
-### Network configuration
+## Network configuration
 
 Set the hostname by creating /etc/hostname file and typing the 
 hostname in it.
 
 >Note: this is not the username
 
-### Root pasword
+## Root pasword
 
 Set a root password with:
 > passwd
 
-### Add users
+## Add users
 
 Create a user (-m -> create /home, -G -> group list)
 > useradd -m -G wheel [username] 
@@ -197,9 +199,11 @@ Let user use sudo (sudo must be installed)
 > visudo
 > uncomment %wheel ALL=(ALL:ALL) ALL (don't uncomment the one that does not ask for passwd)
 
-### Boot loader
+## Boot loader
 
-Install a boot loader, for grub (in UEFI):
+#### Grub
+
+In efi:
 > pacman -S grub efibootmgr
 > pacman -S amd-ucode // or intel-ucode
 > grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
@@ -209,6 +213,35 @@ If it says: 'efibootmgr not found' -> pacman -S efibootmgr
 
 Note: the amd-ucode is optional but better to install amd microcode. It
 check for update for the cpu microcode (whatever that is).
+
+#### Systemd-boot
+
+> pacman -S efibootmgr
+> bootctl --path=/boot install
+> cd /boot/loader
+
+ Edit the `entries` directory and `loader.conf` file:
+
+Loader.conf:
+- Uncomment the `timeout 3` if you want to add a delay before starting the system
+- Enter `default   arch-*` (or modify the default entry if already one)
+
+Entries:
+- cd /entries
+- create entry: `nvim arch.conf`
+
+```markdown
+title   Arch Linux
+linux   /vmlinuz-linux
+initrd  /initramfs-linux.img
+options root=PARTUUID=root-part-uid rw
+```
+To find the root partition uuid either:
+- blkid /dev/root-partition (ex: blkid /dev/sda2)
+- Or remove the options lines form the arch.conf file and enter in the console:
+    > echo "options root=PARTUUID=$(blkid -s PARTUUID -o value /dev/sdX2) rw" >> /boot/loader/entries/arch.conf
+    > Just replace sdX2 with the correct root partition
+
 
 ## Reboot
 
