@@ -261,7 +261,9 @@ Type `reboot` and remove the installation media
 ```bash
 git clone https://aur.archlinux.org/yay-git.git 
 cd yay-git
+sudo pacman -S fakeroot
 makepkg -si
+
 
 # install package like so:
 yay -S packagename
@@ -312,6 +314,15 @@ $ amixer sset Headphone unmute
 ```
 To use alsamixer:
 > sudo pacman -S alsa-utils
+
+## Bluetooth
+
+```bash
+sudo pacman -S bluez bluez-utils
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+```
+
 
 ## Networking security
 
