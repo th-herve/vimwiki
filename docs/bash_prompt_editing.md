@@ -2,14 +2,15 @@
 
 ## Basics
 
-| keybind        | action                        |
-|----------------|-------------------------------|
-| C-b / C-f      | Move cursor backward/forward  |
-| C-d            | Delete char under cursor      |
-| C-_            | Undo                          |
-| C-u            | delete line                   |
-| C-a C-e        | Move start/end of the line    |
-| M-f / M-b      | Move forward/backward a word  |
+| keybind   | action                                 |
+|-----------|----------------------------------------|
+| C-b / C-f | Move cursor backward/forward           |
+| C-d       | Delete char under cursor               |
+| C-_       | Undo                                   |
+| C-u       | delete line                            |
+| C-a C-e   | Move start/end of the line             |
+| M-f / M-b | Move forward/backward a word           |
+| C-x C-e   | Open command in nvim (run it when :wq) |
 
 > note: M = Alt
 
