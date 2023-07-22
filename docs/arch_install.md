@@ -217,6 +217,7 @@ check for update for the cpu microcode (whatever that is).
 #### Systemd-boot
 
 > pacman -S efibootmgr
+> pacman -S amd-ucode               // or intel-ucode
 > bootctl --path=/boot install
 > cd /boot/loader
 
@@ -233,6 +234,7 @@ Entries:
 ```markdown
 title   Arch Linux
 linux   /vmlinuz-linux
+initrd  /amd-ucode.img                      or intel-ucode.img
 initrd  /initramfs-linux.img
 options root=PARTUUID=root-part-uid rw
 ```
