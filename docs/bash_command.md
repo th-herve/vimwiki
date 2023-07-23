@@ -7,3 +7,4 @@
 - [Wc](bash_wc_command): count items in an input/file
 - [du/df](bash_du_df_command): disk usage information
 - [Curl](bash_curl_command)
+- [Awk](bash_awk.md)
