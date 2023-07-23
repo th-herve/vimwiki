@@ -2,6 +2,8 @@
 
 Client-side validation of a form can be implemented in html.
 
+It can also be implemented in [javascript](js_form_validation_api.md) for more control.
+
 `!!` Server-side validation is still necessary.
 
 ## Required validation
