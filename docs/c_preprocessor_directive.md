@@ -10,3 +10,5 @@ Create symbolic constants.
 #define PI 3.14159265
 ```
 When compiled, NAME is replace with REPLACEMENT.
+
+> Note: There is no semicolon at the end
