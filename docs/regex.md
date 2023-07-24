@@ -16,14 +16,15 @@ Place the flag after the second `/`: /expression/flag
 
 > string used in example: bar bor. boo bir 
 
-| key   | action               | example    | output                                  | case sensitive |
-|-------|----------------------|------------|-----------------------------------------|----------------|
-| .     | select all !char!    | /./g       | bar bor. boo bir                        |                |
-| []    | alternative char     | /b[aoi]r/g | bar bor bir                             |                |
-| [^]   | exclude char         | /b[^o]r/g  | bar bir                                 |                |
-| [a-z] | letter range         | /b[i-z]    | bor bir                                 | yes            |
-| [0-9] | number range         |            |                                         |                |
-| \     | escape character     | / \./g     | .                                       |                |
+| key      | action                 | example    | output           | case sensitive |
+|----------|------------------------|------------|------------------|----------------|
+| .        | select all !char!      | /./g       | bar bor. boo bir |                |
+| []       | alternative char       | /b[aoi]r/g | bar bor bir      |                |
+| [^]      | exclude char           | /b[^o]r/g  | bar bir          |                |
+| [a-z]    | letter range           | /b[i-z]    | bor bir          | yes            |
+| [0-9]    | number range           |            |                  |                |
+| [a-z0-9] | number or letter range |            |                  |                |
+| \        | escape character       | / \./g     | .                |                |
 
 
 | key | action                              | example   | output                                             |
