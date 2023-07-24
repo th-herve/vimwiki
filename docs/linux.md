@@ -11,5 +11,6 @@
 ## Linux
 
 - [Manage drive](linux_manage_drive)
+- [Mount/unmount usb](linux_mount_usb.md)
 - [Manage peripheral](linux_manage_peripherals)
 - [linux_backups](linux_backups)
