@@ -5,7 +5,7 @@
 ```bash
 sudo pacman -S kitty firefox rofi dmenu qtile chezmoi
 ```
-Other: btop alsa-utils glow sc libre-office spotify-launcher
+Other: btop alsa-utils glow sc libre-office spotify-launcher dunst
 
 ## Get chezmoi config
 
