@@ -11,6 +11,7 @@
 - [DOM manipulation](js_dom_manipulation.md)
 - [Events](js_events.md)
 - [Form validation](js_form_validation_api.md)
+- [Json](js_json.md)
 
 ## Other
 
