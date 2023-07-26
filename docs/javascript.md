@@ -12,6 +12,7 @@
 - [Events](js_events.md)
 - [Form validation](js_form_validation_api.md)
 - [Json](js_json.md)
+- [Async](js_async_index.md)
 
 ## Other
 
