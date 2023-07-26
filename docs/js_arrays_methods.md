@@ -63,13 +63,29 @@ const result = array.sort((a, b) => a.age > b.age ? 1 : -1);
 
 ## array.reduce()
 
-```javascript
-const result = array.reduce((accumulator, item) => {
-    return accumulator + item.number;
-},0);
+The `reduce()` method execute a `reducer callback function` on each
+element, and pass the return value from the calculation of
+the last element.
 
+The first callback does not have a return value. An initial
+value can be supplied. Otherwise array[0] is used, and iteration start
+at index 1.
+
+The result is a `single value`.
+
+Use cases: sum up array, finding min/max, flattening multi dimensional array,
+grouping element, counting occurrence...
+
+
+```javascript
+const array = [1, 2, 3 , 4];
+
+const result = array.reduce((accumulator, item) => {
+    return accumulator + item;
+}, 0); // 0 act as the first return value
+
+// result = 10
 ```
->`!!` take note of the `0` at the end, it ensure that the function does not return undefined.
 
 ## array.some()
 
