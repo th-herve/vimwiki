@@ -44,6 +44,8 @@ On any machine where chezmoi is installed and init, you can pull and apply the l
 
 ### Init on a new machine
 
+[full installation](installation.md)
+
 Once installed, you can set up a new machine with one line:
 > chezmoi init --apply $GITHUB_USERNAME
 
