@@ -3,7 +3,7 @@
 ## Packages
 
 ```bash
-sudo pacman -S kitty firefox rofi dmenu qtile chezmoi
+sudo pacman -S kitty firefox rofi dmenu qtile chezmoi zsh
 ```
 Other: btop alsa-utils glow sc libre-office spotify-launcher dunst
 
