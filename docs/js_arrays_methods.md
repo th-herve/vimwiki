@@ -86,6 +86,7 @@ const result = array.reduce((accumulator, item) => {
 
 // result = 10
 ```
+> Note: the `0` provided as default value is useful if we had an empty array. Without it, it would throw an error. Wiht it, it return 0.
 
 ## array.some()
 
