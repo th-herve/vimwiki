@@ -5,7 +5,9 @@
 ```bash
 sudo pacman -S kitty firefox rofi dmenu qtile chezmoi zsh
 ```
-Other: btop alsa-utils glow sc libre-office spotify-launcher dunst
+Other: btop alsa-utils glow sc libre-office spotify-launcher dunst vlc feh
+Dev: python python-pip gcc make sqlite
+For node see in [Nvim](#Install node)
 
 ## Get chezmoi config
 
