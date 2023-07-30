@@ -38,7 +38,7 @@
 | command                       | action                                                                   |
 |-------------------------------|--------------------------------------------------------------------------|
 | sort                          | sort input                                                               |
-| uniq                          | only print once lines in a sorted input (remove duplicate)               |
+| uniq                          | remove duplicate in a sorted output                                      |
 | uniq -c                       | uniq with count of each iteration                                        |
 | tail                          | only print xth lines                                                     |
 | awk                           | parse output by colone delimited by white space                          |
