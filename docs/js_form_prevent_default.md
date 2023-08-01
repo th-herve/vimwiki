@@ -7,7 +7,7 @@ function handleFormSubmission(event) {
   event.preventDefault();
   
   const form = event.target;
-  const formData = new FromData(form);
+  const formData = new FormData(form);
   
   const name = formData.get('name');
   const age = formData.get('age');
