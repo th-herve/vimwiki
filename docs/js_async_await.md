@@ -21,10 +21,10 @@ server.getInfo().then(async info => {return result});
 
 ## Await keyword
 
-The `await` keyword can be used, on a `variable`, in a function that is declared with
-the `async` keyword.
+The `await` keyword can be used, on a `variable` that return a promise. 
+It can only be used in a function that is declared with the `async` keyword.
 
-It pause the execution of a function to wait for a value. It replace
+It `pause` the execution of a function to wait for a value. It replace
 the `.then()` method.
 
 ```javascript

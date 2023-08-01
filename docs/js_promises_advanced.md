@@ -48,7 +48,7 @@ const promise = Promise.all([job(1000).catch(function() {}), job(2000).catch(fun
 
 ## Promise.race()
 
-`Promise.catch()` take an iterable of promises as argument and return a new promise.
+`Promise.race()` take an iterable of promises as argument and return a new promise.
 It resolve or reject as soon as one of the given promises is resolved or reject.
 
 Useful to fetch data from several source and use the fastest. Can be use
