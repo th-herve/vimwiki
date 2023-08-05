@@ -79,6 +79,24 @@ class User {
 let  user = new User();
 alert(user.age); // 18
 ```
+## Private field and methods
+
+To create a private field or methods, add `#` in front of it, when declared and used with `this`.
+
+```javascript
+class User {
+  #property;
+  
+  constructor() {
+    this.#property = "test";
+  }
+  
+  #privateMethod() {
+    return this.#property;
+  }
+}
+```
+
 ## Inheritance
 
 Use the `extends` keyword to create a class as a child of
