@@ -58,3 +58,12 @@ can be called on it.
 ```javascript
 assyncFunction().catch(error => console.log(error))
 ```
+
+## Using it with Promise.all
+
+```javascript
+let result = await Promise.all([
+  fetch(url1),
+  fetch(url2),
+]);
+```
