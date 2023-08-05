@@ -14,3 +14,4 @@
 - [Mount/unmount usb](linux_mount_usb.md)
 - [Manage peripheral](linux_manage_peripherals)
 - [linux_backups](linux_backups)
+- [Pacman](pacman.md)
