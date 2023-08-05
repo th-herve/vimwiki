@@ -11,7 +11,7 @@ class User {
     
     // method 
     sayName() {
-        console.log(this.name)
+        console.log(this.name);
     }
 }
 
