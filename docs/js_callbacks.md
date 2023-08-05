@@ -19,4 +19,28 @@ function onComplete() {
 doAsyncStuff(onComplete);
 ```
 
-## Creating 
+## Creating custom callback functions
+
+```javascript
+function fetchDataFromServer(successCallback, errorCallback) {
+    const data = // fetch it
+    
+    if (data) {
+        successCallback(data) ;
+    } else {
+        const error = "Data not fount";
+        errorCallback(error);
+    }
+}
+
+function onSuccess(data) {
+    console.log("Data retrieved: ", data);
+}
+
+function onError(error) {
+    console.log("Error occurred: ", error);
+}
+
+// usage
+fetchDataFromServer(onSuccess, onError);
+```
