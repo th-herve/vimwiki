@@ -77,7 +77,7 @@ class User {
 }
 
 let  user = new User();
-alert(user.name); // Bob
+alert(user.age); // 18
 ```
 ## Inheritance
 
