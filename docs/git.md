@@ -12,6 +12,10 @@
 - [Track bug with bisect](git_track_bug_bisect)
 - [Add part of a file](git_add_part_file)
 - [Copying a File from One Git Branch to Another](git_copy_file_between_branches.md)
+
+## Change history
+
+- [Change last commit](git_change_last_commit.md)
  
 ## Other
 
