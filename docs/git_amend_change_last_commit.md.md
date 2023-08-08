@@ -1,6 +1,7 @@
 # Change last commit with --amend
 
 `!!` only change commit that have not been push.
+`!!` it's a destructive operation.
 
 Change last commit with `git commit --amend`
 
@@ -15,4 +16,4 @@ If you forgot to add a file to the last commit:
 
 `git commit --amend -m "new message"`
 
->Note: you can add file and change the commit mesage at the same time.
+>Note: you can add file and change the commit message at the same time.
