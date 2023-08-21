@@ -15,6 +15,10 @@ The keyframes work with the following animations properties:
   animation-name: change-color;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  
+  // or
+  
+  animation: 2s infinite alternate change-color;
 }
 ```
 
