@@ -7,3 +7,7 @@
 
 - [html table](html_table.md)
 
+## Images
+
+- [srcset](html_img_srcset.md)
+
