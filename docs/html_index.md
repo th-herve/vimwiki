@@ -10,4 +10,5 @@
 ## Images
 
 - [srcset](html_img_srcset.md)
+- [picture tag](html_picture_tag.md)
 
