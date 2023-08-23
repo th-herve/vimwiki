@@ -17,3 +17,5 @@ body {
 - Tablets: 500px - 1000px
 - Browser: >1000px
 - Wide screen: >2000px
+
+[More on it](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
