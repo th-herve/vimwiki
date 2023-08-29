@@ -34,7 +34,7 @@ You can use a html to jsx [converter](https://transform.tools/html-to-jsx) to co
 3. camelCase most thing
 
   Attribute written in kebab-case must be converted in camelCase.
-  stroke-width become strokeWidth.
+  The attribute stroke-width become strokeWidth.
 
   The keyword `class` become `className`.
 
