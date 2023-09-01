@@ -6,7 +6,13 @@ To start using SQLite3 in a terminal, run the command:
 sqlite3 <database name>.db
 ```
 This will create a new database if the specified name does not already exist.
-<br><br>
+
+## Printing schema
+
+```sql
+.schema
+```
+
 ## Creating a Table
 
 To create a new table, use the following syntax:
@@ -30,10 +36,6 @@ CREATE TABLE students (
 );
 
 ```
-
-
-<br><br>
-
 # Inserting Data
 
 To insert data into a table, use the following syntax:
@@ -59,8 +61,6 @@ Enter csv mode to specify that a csv file will be imported, then import it
 .import <csv name>.csv <table name>
 ```
 
-<br><br>
-
 # Selecting Data
 
 To retrieve data from a table, use the following syntax:
@@ -82,7 +82,6 @@ SELECT * FROM assignments
 JOIN houses ON houses.id = assignments.house_id
 WHERE houses.house = "Gryffindor";
 ```
-<br><br>
 
 # Updating Data
 
@@ -100,8 +99,6 @@ SET age = 21
 WHERE name = 'Alice';
 ```
 
-<br><br>
-
 # Deleting Data
 
 To delete data from a table, use the following syntax:
@@ -116,8 +113,6 @@ DELETE FROM students
 WHERE age < 18;
 ```
 
-<br><br>
-
 # Dropping a Table
 
 To delete an entire table, use the following syntax:
@@ -130,8 +125,6 @@ For example, to delete the "students" table:
 ```sql
 DROP TABLE students;
 ```
-
-<br><br>
 
 # Query keywords
 
@@ -245,9 +238,6 @@ Here are some other useful commands:
 * .mode table: changes the display mode to tabular
 * .timer on: displays the time it takes to execute a query
 
-
-<br><br>
-
 ---
 
 # Data Types
@@ -259,8 +249,6 @@ Here are the most common data types used in SQLite3:
 * TEXT: a string of characters
 * BLOB: binary data
 
-<br><br>
-
 ---
 
 # Constraints
@@ -271,8 +259,6 @@ Here are some common constraints that can be applied to columns:
 * UNIQUE: ensures that all values in the column are unique
 * PRIMARY KEY: uniquely identifies each row in the table
 * FOREIGN KEY: creates a link between two tables
-
-<br><br>
 
 ---
 
