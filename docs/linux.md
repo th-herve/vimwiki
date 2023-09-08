@@ -15,3 +15,4 @@
 - [Manage peripheral](linux_manage_peripherals)
 - [linux_backups](linux_backups)
 - [Pacman](pacman.md)
+- [sc-im](sc-im_tabler.md)
