@@ -8,6 +8,11 @@ Create symbolic constants.
 // example
 
 #define PI 3.14159265
+
+main()
+{
+  int a = PI * 2;
+}
 ```
 When compiled, NAME is replace with REPLACEMENT.
 
