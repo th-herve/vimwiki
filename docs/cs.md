@@ -14,4 +14,5 @@
 
 ## Math
 
-- [Numeral system](numeral_system.md)
+- [Numeral system](math_numeral_system.md)
+- [Binary_operation](math_binary_operation.md)
