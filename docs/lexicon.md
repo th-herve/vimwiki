@@ -12,3 +12,4 @@
 
 - `function parameter`: placeholder for a value used in a function definition.
 - `function argument`: value passed from a function caller to the callee. 
+- `CRUD`: Create, Read, Update, Delete. 4 Basics sql command, also use in other context.
