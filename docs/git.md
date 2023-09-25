@@ -22,7 +22,7 @@
  
 ## Other
 
-- [Configuration](git_configuration)
+- [Set up and configuration](git_configuration)
 - [Write good commit](git_commit_message)
 
 ## Link

@@ -7,7 +7,11 @@ Use the `useState` hook to define state. It takes an initial value as a paramete
 1. The current state value
 2. A function to update the state value
 
+Import `useState` from react to use it.
+
 ```javascript
+import { useState } from 'react';
+
 const [stateValue, setStateValue] = useState(initialValue);
 
 // example to set the background color 
@@ -24,3 +28,4 @@ function Button() {
   );
 }
 ```
+>Note: hook can only be called at the top level of the component, meaning not inside condition, loop or other nested function.

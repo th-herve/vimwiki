@@ -57,4 +57,4 @@
 | !   | Logical NOT               | `!$x` returns true if $x is false, and false if $x is true.        |
 | and | Logical AND (alternative) | `$x and $y` returns true if both $x and $y are true.               |
 | or  | Logical OR (alternative)  | `$x or $y` returns true if either $x or $y is true.                |
-| xor | Logical XOR               | `$x xor $y` returns true if either $x or $y is true, but not both. |
+[|](|.md) xor | Logical XOR               | `$x xor $y` returns true if either $x or $y is true, but not both. |
