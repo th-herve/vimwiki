@@ -7,6 +7,7 @@
 - [C](c)
 - [Python](python)
 - [Javascript](javascript.md)
+- [Java](java.md)
 - [Php](php.md)
 - [Web](web)
 - [Sqlite3](sqlite3)
