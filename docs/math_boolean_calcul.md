@@ -73,3 +73,58 @@ a.b = b.a
 
 a(b + c) = ab + ac
 ab + ac = a(b + c)
+
+## Laws
+
+### Morgan law
+
+1. first law
+_____
+a + b = ā.b̄
+
+1. Second law
+___
+a.b = ā + b̄
+
+
+
+## Karnault
+
+Faire le tableau de toutes les possibilités
+
+groupement de 8, 4 ou 2 en verticale ou horizontale (toujours prendres le plus grand possible)
+On regarde les changement d'état d'une variable qui élimine la varibale.
+
+### Tableau 2 valeurs
+
+ex: ab + ab̄ + āb
+|   | b | b̄ |
+| a | x | x |
+| ā | x |   |
+
+Ligne 1 = a
+Colonne 1 = b
+resultat = a + b
+
+Un groupement de 4 = 1
+
+#### Cas ab + a
+
+On met deux croix dans la ligne a car a(b + b̄) = 1
+
+|   | b | b̄ |
+| a | x | x [|](|.md)
+| ā | x |   |
+
+### Tableau 4 valeurs
+
+marchent a cote et sur les extremités
+
+### autre
+
+repose sur ce principe:
+ab + ab = ab
+donc:
+ab = ab + ab
+
+ab + ab̄

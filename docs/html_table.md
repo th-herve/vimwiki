@@ -8,7 +8,7 @@
 4. Add header with `<th>` (table header)
 
 ```html
- table>
+ <table>
   <tr>
     <th>header 1<th/>
     <th>header 2<th/>

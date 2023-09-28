@@ -20,6 +20,7 @@
 - [Markdown](markdown)
 - [Latex](latex_notation.md)
 - [PowerShell](powershell)
+- [Windows shell](windows_shell.md)
 - [Git](git)
 - [Tmux](tmux)
 - [Regex](regex)
