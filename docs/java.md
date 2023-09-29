@@ -13,3 +13,7 @@
 ## Data
 
 - [Arrays](java_arrays.md)
+
+## Class
+
+- [Class basics](java_class_basics.md)
