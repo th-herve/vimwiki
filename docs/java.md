@@ -17,3 +17,8 @@
 ## Class
 
 - [Class basics](java_class_basics.md)
+- [Access modifiers](java_access_modifiers.md)
+- [Getter and setter](java_getter_setter.md)
+- [Override toString](java_override_toString.md)
+- [Inheritance](java_inheritance.md)
+- [Polymorphism](java_polymorphism.md)
