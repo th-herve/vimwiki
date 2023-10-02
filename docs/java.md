@@ -13,6 +13,8 @@
 ## Data
 
 - [Arrays](java_arrays.md)
+- [List](java_list.md)
+- [Linked list](java_linkedlist.md)
 
 ## Class
 
