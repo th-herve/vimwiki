@@ -11,31 +11,40 @@ public class Car {
 }
 ```
 
-## Access modifiers
-
-Four types:
-
-| modifier    | class | package | child class | global |
-|-------------|-------|---------|-------------|--------|
-| public      | ✓     | ✓       | ✓           | ✓      |
-| protected   | ✓     | ✓       | ✓           |        |
-| no modifier | ✓     | ✓       |             |        |
-| private     | ✓     |         |             |        |
-
-
 ## Constructors
 
 Help creating an object (instance of the class). Each time a instance is created
 with `new`, the constructor is called.
 
+The `this` keyword is use to refer to the object.
+
 ```java
 // class
-public class Car {
+public class Cat {
+    // fields
+    String name;
     // constructor
-    public Car() {
-        // code
+    public Cat(name) {
+        this.name = name;
     }
 }
 
-Car ferrari = new Car();
+Car ferrari = new Cat("Felix");
+```
+
+## Instance fields
+
+or `instance variable`, declare variable inside the class definition.
+
+```java
+class Cat {
+    // instance fields
+    String name;
+    int numLives = 9;
+    
+    // constructor
+    public cat() {
+        
+    }
+}
 ```

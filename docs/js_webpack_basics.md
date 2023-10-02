@@ -13,7 +13,7 @@ a single file `main.js` in the `dist` directory.
 1. Inside the root of the project.
     ```bash
     npm init -y
-    npm install packge-name
+    npm install package-name
     ```
 2. Create a `src` directory
 3. Write javascript in `src`
@@ -29,7 +29,7 @@ Each project can have a configuration file for webpack.
 In the root of the project create `webpack.config.js`
 
 ```javascript
-`const path = require('path');
+const path = require('path');
 
 module.exports = {
   entry: './src/index.js',
