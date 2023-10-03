@@ -31,3 +31,17 @@ myArray[2] = newValue;
 ```java
 myArray.length
 ```
+
+## 2D array
+
+```java
+// creating 
+int[][] nums;
+int[][] nums = {{10, 2, 3}, {3, 21, 4}, {1,3,5}};
+
+// creating empty
+int[][] = new int[2][3];
+
+// accessing
+nums[1][3];
+```
