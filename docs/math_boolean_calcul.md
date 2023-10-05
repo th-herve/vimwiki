@@ -107,6 +107,8 @@ Colonne 1 = b
 resultat = a + b
 
 Un groupement de 4 = 1
+Un groupement de 8 = 1
+
 
 #### Cas ab + a
 
