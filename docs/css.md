@@ -20,3 +20,7 @@
 - [Css transform](css_transform.md)
 - [Css transition](css_transition.md)
 - [Css keyframes](css_keyframes.md)
+
+## Other
+
+- [Center text](css_center_text.md)
