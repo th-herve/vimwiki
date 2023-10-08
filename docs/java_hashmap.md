@@ -10,7 +10,7 @@ We import the hashmap and declare it by specifying both the key and the value da
 
 ```java
 import java.util.HashMap;
-HashMap<String, Integer> myHashMap = newHashMap<>();
+HashMap<String, Integer> myHashMap = new HashMap<String, Integer>();
 ```
 
 ## Adding key-value pair
