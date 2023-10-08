@@ -39,3 +39,22 @@ Replace `pick` with `r` or `reword`, save and exit. Then a new window appear whe
 pick 1a2b3c4d commit_1 
 r 9i0j1k2l commmmmmit_3 
 ```
+## Squash commit
+
+Squashing commits allows to combine two or more commits into one.
+
+1. Replase `pick` with `s` or `squash`, the commit(s) you want to combine with the precedent, then save and exit.
+2. A new window open where you can edit the commit message in the first line, save and exit
+
+`!!` commits are from oldest to newest in the list
+
+```bash
+# from:
+pick 1a2b3c4d commit_1 
+pick 3m4n5o6p commit_2 
+s 9i0j1k2l commit_3 
+
+# to:
+pick 1a2b3c4d commit_1 
+pick 3m4n5o6p commit_2_3 
+```
