@@ -22,6 +22,7 @@
 - [Import/export modules](js_import_export_module.md)
 - [Using eslint and prettier](js_eslint_prettier.md)
 - [Tips and tricks](js_tips_and_tricks.md)
+- [Others](js_other.md)
 
 ## Library
 

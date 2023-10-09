@@ -10,7 +10,7 @@
 - [Java](java.md)
 - [Php](php.md)
 - [Web](web)
-- [Sqlite3](sqlite3)
+- [Sql](Sql)
 - [Cs](cs.md)
 
 ## General
