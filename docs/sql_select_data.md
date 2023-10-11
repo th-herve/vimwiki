@@ -16,12 +16,3 @@ For example, to select the "name" and "age" column from the "students" table:
 SELECT name, age 
 FROM students;
 ```
-### JOIN table
-
-Allow to select and organise data from different table by joining them.  
-
-```sql
-SELECT * FROM assignments
-JOIN houses ON houses.id = assignments.house_id
-WHERE houses.house = "Gryffindor";
-```

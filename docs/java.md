@@ -25,3 +25,7 @@
 - [Override toString](java_override_toString.md)
 - [Inheritance](java_inheritance.md)
 - [Polymorphism](java_polymorphism.md)
+
+## Other
+
+- [Gradle](java_gradle.md)
