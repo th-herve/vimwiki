@@ -17,9 +17,12 @@
 
 ## Query
 
+- [Select data](sql_select_data.md)
+- [Jointure](sql_jointure.md)
 - [Query keywords](sql_query_keywords.md)
 - [Query commands](sql_query_commands.md)
 - [functions](sql_functions.md)
+- 
 
 ## Sqlite3
 

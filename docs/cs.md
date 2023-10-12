@@ -7,6 +7,7 @@
 ## Algorithms
 
 - [Binary search][binary_search.md]
+- [Union find](cs_union_find.md)
 
 ## Data structures
 - [Binary tree](binary_tree.md)
