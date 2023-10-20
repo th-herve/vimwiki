@@ -30,7 +30,7 @@ SELECT LOWER(name) FROM student;
 
 ## MIN/MAX
 
-Return the min/max value from a column.
+Return the min/max value from a column. Also work with string (return based on the number of character).
 
 ```sql
 SELECT MAX(grade) FROM grade;
