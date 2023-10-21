@@ -1,7 +1,5 @@
 # Sql
 
-- [sqlite3 basic](sqlite3_basic)
-
 ### Table
 
 - [Data types and constraints](sql_types_and_constraints.md)
@@ -22,7 +20,6 @@
 - [Query keywords](sql_query_keywords.md)
 - [Query commands](sql_query_commands.md)
 - [functions](sql_functions.md)
-- 
 
 ## Sqlite3
 
