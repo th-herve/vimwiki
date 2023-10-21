@@ -5,3 +5,7 @@
 - [Command](nvim_command)
 - [Pluggins/function](nvim_pluggins)
 - [Tips and tricks](nvim_tips_and_tricks)
+
+## Config
+
+- [Adding a formater](nvim_adding_formatter.md)
