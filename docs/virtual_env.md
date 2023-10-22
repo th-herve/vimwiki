@@ -15,7 +15,7 @@ Help build the requirement file.
 
 # Activate and use environment
 
-1. In terminal, in the folder of the project: windows: `venv\Scripts\activate` Linux: `source envName/bin/activate`
+1. In terminal, in the folder of the project: `source envName/bin/activate`
 2. Now there is the name of the environment in bracket in the terminal
 3. Install the packages you need and do your project
 4. Add the requirement in a txt file with: `pip install -r requirements.txt`
