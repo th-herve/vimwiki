@@ -44,6 +44,13 @@ SELECT * FROM student
 ORDER BY name DESC;
 ```
 
+You can specify a secondary sort option:
+
+```sql
+SELECT * FROM student
+ORDER BY name DESC, id ASC;
+```
+
 ## LIMIT
 
 Limit the number of result.  
