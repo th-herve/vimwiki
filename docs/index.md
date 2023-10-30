@@ -33,6 +33,7 @@
 - [International keyboard](international_keyboard)
 - [Search_info](search_info)
 - [chezmoi_dotfiles](chezmoi_dotfiles)
+- [Set up server](set_up_server.md)
 
 - [Vimwiki](vimwiki)
 - [Arch installation](arch_install.md)
