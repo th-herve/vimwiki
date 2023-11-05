@@ -5,9 +5,10 @@ To create a new table, use the following syntax:
 ```sql
 CREATE TABLE <table name> (
   id INTEGER,
+  foreign_id INTEGER
   <column name> <data type>,
-  PRIMARY KEY (id)
-  ...
+  PRIMARY KEY (id),
+  FOREIGN KEY (foreign_id) REFERENCES foreign_table(id);
 );
 ```
 Typing primary key (id), allow to create and increment automatically the id each new entry
@@ -19,7 +20,10 @@ CREATE TABLE students (
   id INTEGER,
   name TEXT,
   age INTEGER,
-  PRIMARY KEY (id)
+  house_id INTEGER,
+  PRIMARY KEY (id),
+  FOREIGN KEY (house_id) REFERENCES houses (id);
 );
-
 ```
+
+> `Note`: primary key can only be specified inline: `id INTEGER PRIMARY KEY`
