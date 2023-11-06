@@ -38,3 +38,7 @@ SELECT DATEPART(year, '2017/08/25') AS YearOnly;
 - FLOOR()
 - CEILING()
 - ROUND(number, decimal)
+
+## String
+
+- STRING_SPLIT (string, separator)
