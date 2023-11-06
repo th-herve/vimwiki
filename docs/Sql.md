@@ -19,7 +19,8 @@
 - [Jointure](sql_jointure.md)
 - [Query keywords](sql_query_keywords.md)
 - [Query commands](sql_query_commands.md)
-- [functions](sql_functions.md)
+- [Functions](sql_functions.md)
+- [Conditional](sql_conditional.md)
 
 ## Sqlite3
 

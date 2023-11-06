@@ -19,6 +19,7 @@
 - [Change last commit](git_amend_change_last_commit.md.md)
 - [Git rebase](git_rebase.md) TODO
 - [Git cherry pick](git_cherry_pick.md)
+- [Git fix file too large to push](git_fix_file_too_large.md)
  
 ## Other
 

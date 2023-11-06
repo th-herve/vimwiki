@@ -15,7 +15,8 @@
 - [Arrays](java_arrays.md)
 - [List](java_list.md)
 - [Linked list](java_linkedlist.md)
-- [Hash map](java_hashmap.md)
+- [Hash maps](java_hashmap.md)
+- [Sets](java_sets.md)
 
 ## Class
 

@@ -11,10 +11,10 @@ A size can be specify in between bracket, if left empty, it default to 10
 
 ```java
 // we use Integer instead of int, create an list of 10 elements
-ArrayList<Integer> myList = new ArrayList<Integer>();
+List<Integer> myList = new ArrayList<Integer>();
 
 // list of 12 elements
-ArrayList<Integer> myList = new ArrayList<Integer>(12);
+List<Integer> myList = new ArrayList<Integer>(12);
 ```
 
 ## Adding elements

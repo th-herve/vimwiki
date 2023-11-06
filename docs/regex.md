@@ -27,16 +27,18 @@ Place the flag after the second `/`: /expression/flag
 | \        | escape character       | / \./g     | .                |                |
 
 
-| key | action                              | example   | output                                             |
-|-----|-------------------------------------|-----------|----------------------------------------------------|
-| ^   | select matching start of line       | /^[0-9]/g | select all digit at the start of a line            |
-| $   | select matching end of line         | /html$/g  | select all html expr that are in the end of a line |
-| \w  | select letter,number and underscore | / \w /g   | a b 1 2 _ ...                                      |
-| \W  | except letter,number and underscore | / \w /g   | . : ! ? ...  (space too)                           |
-| \d  | select only digit                   | / \d /g   | 1 2 ...                                            |
-| \D  | except digit                        | / \D /g   | a b ...                                            |
-| \s  | only space                          | / \s /g   | ' '                                                |
-| \S  | except space                        | / \S /g   | you get it                                         |
+| key | action                              | example   | output                                                     |
+|-----|-------------------------------------|-----------|------------------------------------------------------------|
+| ^   | select matching start of line       | /^[0-9]/g | select all digit at the start of a line                    |
+| $   | select matching end of line         | /html$/g  | select all html expr that are in the end of a line         |
+| \w  | select letter,number and underscore | / \w /g   | a b 1 2 _ ...                                              |
+| \W  | except letter,number and underscore | / \w /g   | . : ! ? ...  (space too)                                   |
+| \d  | select only digit                   | / \d /g   | 1 2 ...                                                    |
+| \D  | except digit                        | / \D /g   | a b ...                                                    |
+| \s  | only space                          | / \s /g   | ' '                                                        |
+| \S  | except space                        | / \S /g   | you get it                                                 |
+| \b  | is boundary                         | / \b. /g  | select what followed (here .) if it's at the beginning     |
+| \B  | is boundary                         | / \b. /g  | select what followed (here .) if it's NOT at the beginning |
 
 
 ## Repetition
