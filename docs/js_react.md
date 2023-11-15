@@ -9,4 +9,6 @@
 - [State](react_state.md)
 - [Ref](react_useRef.md)
 
-### 
+## Others
+
+- [Translation with i18n](react_i18n_translation.md)
