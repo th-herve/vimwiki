@@ -30,3 +30,4 @@
 ## Other
 
 - [Gradle](java_gradle.md)
+- [Tips and tricks](java_tips.md)
