@@ -328,7 +328,7 @@ sudo systemctl start bluetooth.service
 
 ## Networking security
 
-See DNS securtity and setting up firewall in the arch wiki.
+See DNS security and setting up firewall in the arch wiki.
 
 ## Style gtk and qt
 
