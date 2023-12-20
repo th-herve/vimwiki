@@ -24,7 +24,7 @@
 
 ## View
 
-
+- [View](sql_view.md)
 
 ## DBMS
 
