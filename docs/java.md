@@ -27,6 +27,11 @@
 - [Inheritance](java_inheritance.md)
 - [Polymorphism](java_polymorphism.md)
 
+## Library
+
+- [Swing ui](java_swing_ui.md)
+
 ## Other
 
 - [Gradle](java_gradle.md)
+- [Tips and tricks](java_tips.md)

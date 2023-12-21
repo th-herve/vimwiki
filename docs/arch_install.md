@@ -104,15 +104,18 @@ Use fdisk with the desire disk:
 Each newly created partition must be formatted
 
 For EFI:
-> mkfs.fat -F32 /dev/efi_partition
+mkfs.fat -F32 /dev/efi_partition
+
 > mkfs.fat -F32 /dev/sda1
  
 For swap:
-> mkswap /dev/swap_partition
+mkswap /dev/swap_partition
+
 > mkswap /dev/sda2
 
 For the root partition and home:
-> mkfs.ext4 /dev/root_partition
+mkfs.ext4 /dev/root_partition
+
 > mkfs.ext4 /dev/sda3
 
 ## Mount the file systems
@@ -121,7 +124,7 @@ For the root:
 > mount /dev/root_partition /mnt
 
 For the EFI boot:
-- For Grub mount in: /mnt/boot/efi or /mnt/boot
+- For Grub mount in: /mnt/boot/efi
 - For Systemd-boot: /mnt/boot
 > mount --mkdir /dev/efi_partition /mnt/boot/efi
 or
@@ -140,17 +143,17 @@ For home:
 > pacstrap -K /mnt base linux linux-firmware
 
 ## Generate an fstab
-
+ 
 It define how partition are mounted
 > genfstab -U /mnt >> /mnt/etc/fstab
-
+ 
 ## Chroot into the new system
 
 > arch-chroot /mnt
 
 ## Install needed packages
 
-> pacman -S networkmanager neovim vim git sudo iwctl firefox kitty...
+> pacman -S networkmanager neovim vim git sudo iwd firefox kitty...
 
 Enable networkmanager:
 > systemctl enable NetworkManager
@@ -328,7 +331,7 @@ sudo systemctl start bluetooth.service
 
 ## Networking security
 
-See DNS securtity and setting up firewall in the arch wiki.
+See DNS security and setting up firewall in the arch wiki.
 
 ## Style gtk and qt
 

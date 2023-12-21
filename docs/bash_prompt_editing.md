@@ -2,17 +2,43 @@
 
 ## Basics
 
-| keybind   | action                                 |
-|-----------|----------------------------------------|
-| C-b / C-f | Move cursor backward/forward           |
-| C-d       | Delete char under cursor               |
-| C-_       | Undo                                   |
-| C-u       | delete line                            |
-| C-a C-e   | Move start/end of the line             |
-| M-f / M-b | Move forward/backward a word           |
-| C-x C-e   | Open command in nvim (run it when :wq) |
+| keybind   | action                                     |
+|-----------|--------------------------------------------|
+| C-b / C-f | Move cursor backward/forward               |
+| C-h/d     | Delete char before/after cursor            |
+| C-_       | Undo                                       |
+| C-u       | delete line                                |
+| C-a C-e   | Move start/end of the line                 |
+| M-f / M-b | Move forward/backward a word               |
+| C-x C-e   | Open command in nvim (run it when :wq)     |
+| M-.       | Insert the last command last word          |
+| C-j       | Enter                                      |
 
 > note: M = Alt
+
+## Advanced
+
+| keybind   | action                                                |
+|-----------|-------------------------------------------------------|
+| M-u / M-l | Make text upper/lower case from cursor to end of word |
+| M-c       | Capitalize next char and move to end of word          |
+| M-t       | Swap current word with previous                       |
+| C-t       | Swap current char with previous                       |
+
+### Subtitusion
+
+Those can be printed by following them with `:p` -> `!!:p`
+
+| keybind | sub for                                   |
+|---------|-------------------------------------------|
+| !!      | The last command                          |
+| !text   | Run the last command that start with text |
+| ![n]    | Run the nth command in history            |
+| !$      | The last word of the previous command     |
+| !*      | The last command exept the first word     |
+| $$      | PId of the current shell                  |
+| $!      | PId of the last background job            |
+
 
 ## Killing command
 
@@ -24,8 +50,13 @@ Killing refer to delete the text, but save it for later use. So past it back lat
 | M-d     | Kill from cursor to end of word       |
 | M-DEL   | Kill from cursor to beginning of word |
 | C-y     | Past the last killed text             |
+| M-y     | Circle the last killed texts          |
 
 > Note: There is a way to repeat action with the Meta key, but I was to lazy to add it
+
+## Repeat command
+
+Command can be repeated x time by pressing firt: `M-[0-9]`
 
 ## Searching command history
 

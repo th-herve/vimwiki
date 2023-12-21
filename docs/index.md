@@ -27,7 +27,6 @@
 - [Qtile](qtile)
 - [Dwm](dwm_custom_keybind.md)
 
-
 ## Other
 
 - [Usefull link](usefull_link)

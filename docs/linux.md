@@ -16,3 +16,5 @@
 - [linux_backups](linux_backups)
 - [Pacman](pacman.md)
 - [sc-im](sc-im_tabler.md)
+
+- [File system](linux_file_system.md)
