@@ -18,3 +18,4 @@
 - [Numeral system](math_numeral_system.md)
 - [Binary_operation](math_binary_operation.md)
 - [Boolean calcul](math_boolean_calcul.md)
+- [Power arithmetic](math_power_arithmetic.md)
