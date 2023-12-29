@@ -14,7 +14,12 @@
 - [Mount/unmount usb](linux_mount_usb.md)
 - [Manage peripheral](linux_manage_peripherals)
 - [linux_backups](linux_backups)
-- [Pacman](pacman.md)
 - [sc-im](sc-im_tabler.md)
+
+## Arch 
+
+- [Arch installation](arch_install.md)
+- [Pacman](pacman.md)
+- [Aur](arch_aur.md)
 
 - [File system](linux_file_system.md)

@@ -36,7 +36,6 @@
 - [Set up server](set_up_server.md)
 
 - [Vimwiki](vimwiki)
-- [Arch installation](arch_install.md)
 - [Todo](todo)
 - [Cs61](cs61)
 - [Lexicon](lexicon)
