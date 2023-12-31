@@ -21,3 +21,7 @@ If pacman updates dependencies for aur pkg, it needs to be rebuild
 1. Run `git pull` in the cloned repo
 2. Run `makepkg` as normal user
 3. Run `sudo pacman -U packagename.pkg.tar.zst` (the name of the file can be found in the cloned repo)
+
+## Uninstall package
+
+`pacman -Rns PACKAGENAME`
