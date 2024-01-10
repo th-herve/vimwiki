@@ -25,6 +25,7 @@
 ## Advanced
 
 - [View](sql_view.md)
+- [Procedure](sql_procedure.md)
 
 ## DBMS
 
