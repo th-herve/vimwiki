@@ -22,7 +22,7 @@
 - [Functions](sql_functions.md)
 - [Conditional](sql_conditional.md)
 
-## View
+## Advanced
 
 - [View](sql_view.md)
 
