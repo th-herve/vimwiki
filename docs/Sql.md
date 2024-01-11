@@ -16,7 +16,7 @@
 ## Query
 
 - [Select data](sql_select_data.md)
-- [Jointure](sql_jointure.md)
+- [Join](sql_join.md)
 - [Query keywords](sql_query_keywords.md)
 - [Query commands](sql_query_commands.md)
 - [Functions](sql_functions.md)
@@ -26,6 +26,7 @@
 
 - [View](sql_view.md)
 - [Procedure](sql_procedures.md)
+- [Procedure](sql_procedure.md)
 
 ## DBMS
 

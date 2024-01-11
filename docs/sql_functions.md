@@ -42,3 +42,9 @@ SELECT DATEPART(year, '2017/08/25') AS YearOnly;
 ## String
 
 - STRING_SPLIT (string, separator)
+
+## Others
+
+| Function         | Description               |
+|------------------|---------------------------|
+| SCOPE_IDENTITY() | Get the last inserted key |

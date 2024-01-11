@@ -1,6 +1,6 @@
 # How to backup in linux
 
-Using rsync, allow to have incremental backup.
+Using rsync, allows to have incremental backup.
 
 The basic command is:
 > rsync -[flag] --exclude={"/exclude/pathOne/","/exclude/thisPathToo/"} [source/to/backup] [destination/to/store/backup]
