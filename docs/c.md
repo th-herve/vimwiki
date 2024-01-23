@@ -7,6 +7,7 @@
 - [Loop](c_loops.md)
 - [Preprocessor directive](c_preprocessor_directive.md)
 - [Enumeration](c_enumeration.md)
+- [Literals](c_literals.md)
 
 ## Library
 
