@@ -9,3 +9,9 @@ If not all values are specified, the progression continues from the last specifi
 // first one is set to one instead of 0, the rest follow automatically
 enum month {JAN = 1, FEB, MAR, APR, MAY, JUN, JUL, AGU, SEP, OCT, NOV, DEC}
 ```
+
+Variable can be created from an enum:
+
+```c
+enum month this_month = FEB;
+```
