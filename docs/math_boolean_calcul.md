@@ -79,12 +79,16 @@ ab + ac = a(b + c)
 ### Morgan law
 
 1. first law
+```latex
 _____
 a + b = ā.b̄
+```
 
-1. Second law
+2. Second law
+```latex
 ___
 a.b = ā + b̄
+```
 
 
 
@@ -115,7 +119,7 @@ Un groupement de 8 = 1
 On met deux croix dans la ligne a car a(b + b̄) = 1
 
 |   | b | b̄ |
-| a | x | x [|](|.md)
+| a | x | x |
 | ā | x |   |
 
 ### Tableau 4 valeurs
