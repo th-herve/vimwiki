@@ -1,4 +1,6 @@
 # Cs
+
+- [Bitwise operations](cs_bitwise_operations)
  
 ## Complexity
 
