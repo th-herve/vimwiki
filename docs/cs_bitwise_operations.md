@@ -38,3 +38,20 @@ Unary operator that change 1 to 0 and 0 to 1.
 ```c
 int x = ~0b001 // x = 0b110
 ```
+
+## >> (right shift)
+
+Shift all bits to the right by a certain amount.
+
+```c
+int x = 0b100 >> 2 //x = 0b001
+int x = 0b100 >> 3 //x = 0b000
+```
+## << (left shift)
+
+Shift all bits to the left by a certain amount, adding 0 to vacated position.
+
+```c
+int x = 0b001 << 2 //x = 0b100
+int x = 0b100 << 4 //x = 0b1000
+```
