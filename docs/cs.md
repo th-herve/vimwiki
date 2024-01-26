@@ -1,6 +1,7 @@
 # Cs
 
 - [Bitwise operations](cs_bitwise_operations)
+- [Negative representation](cs_negative_representation.md)
  
 ## Complexity
 
