@@ -41,7 +41,7 @@ int x = ~0b001 // x = 0b110
 
 ## >> (right shift)
 
-Shift all bits to the right by a certain amount.
+Shift all bits to the right by a certain amount. Bits shifted off the end are lost.
 
 ```c
 int x = 0b100 >> 2 //x = 0b001
@@ -49,9 +49,19 @@ int x = 0b100 >> 3 //x = 0b000
 ```
 ## << (left shift)
 
-Shift all bits to the left by a certain amount, adding 0 to vacated position.
+Shift all bits to the left by a certain amount, adding 0 to vacated position. Bits shifted off the end are lost.
 
 ```c
 int x = 0b001 << 2 //x = 0b100
-int x = 0b100 << 4 //x = 0b1000
+int x = 0b100 << 4 //x = 0b000 // the 1 is lost
 ```
+
+## Tricks
+
+- `|` with `1` turn a bit `on`
+- `&` with `0` turn a bit `off`
+- `|` can be use to find the `union` of bits
+- `&` can be use to find the `intersection` of bits
+- `^` can be use flip select bits
+- `~` can be use flip all bits
+ 
