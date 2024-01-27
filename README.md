@@ -1,4 +1,4 @@
 
-[https://th-herve.github.io/vimwiki/]
+https://th-herve.github.io/vimwiki/
 
 
