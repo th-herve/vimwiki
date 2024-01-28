@@ -40,5 +40,10 @@ Take advantage of the property that the negative and positive representation of 
 For example 2 and -2, 00`1`0 and 11`1`0 share only the right most 1 is shared.
 
 ```c
-x = x & -x
+x &= -x
+```
+## Remove the least significant 1 bit
+
+```c
+x &= (x-1)
 ```
