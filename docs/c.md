@@ -9,6 +9,7 @@
 - [Enumeration](c_enumeration.md)
 - [Literals](c_literals.md)
 - [Static keyword](c_static_keyword.md)
+- [Arrays](c_arrays.md)
 
 ## Library
 

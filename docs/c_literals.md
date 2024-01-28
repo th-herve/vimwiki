@@ -1,6 +1,7 @@
 # C literals
 
 A literal is a constant value that can be assign to a variable :
+
 ```c
 int num = 42; // 42 is a literal, num a variable
 char letter = 'c'; // c is a literal
