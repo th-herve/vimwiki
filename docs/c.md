@@ -2,12 +2,13 @@
 
 ## Basics
 
-- [DataType](c_data_type.md)
+- [Data type](c_data_type.md)
 - [Structures](c_structures.md)
 - [Loop](c_loops.md)
 - [Preprocessor directive](c_preprocessor_directive.md)
 - [Enumeration](c_enumeration.md)
 - [Literals](c_literals.md)
+- [Static keyword](c_static_keyword.md)
 
 ## Library
 
@@ -16,7 +17,7 @@
 
 ## Debugging
  
-- [C gcc](gcc)
+- [Gcc](gcc)
 
 ## Others
 

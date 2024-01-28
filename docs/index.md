@@ -2,9 +2,9 @@
 
 ## Programming
 
+- [C](c)
 - [C++](c++)
 - [C#](csharp)
-- [C](c)
 - [Python](python)
 - [Javascript](javascript.md)
 - [Java](java.md)
