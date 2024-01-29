@@ -40,3 +40,34 @@ When compiled, NAME is replace with REPLACEMENT.
 // " " mostly for user's programs or files
 #include "foo.h"
 ```
+
+## condional inclusion
+
+Use `#if`,  `#elif`, `#else` 
+
+`#ifdef` and `#ifndef` test if a  name is defined or not.
+> the keyword `defined(name)` can also be used: `#if defined(NAME)`
+
+```c
+// make sure that boo.h is included only once
+#ifndef HDR
+
+#define HDR
+
+// hdr.h content
+
+#endif
+```
+
+```c
+// decide which file to include
+#if SYSTEM == SYSV
+  #define HDR "sysv.h"
+#elif SYSTEM == BSD
+  #define HDR "bsd.h"
+#else
+  #define HDR "defaut.h"
+#endif
+
+#include HDR
+```
