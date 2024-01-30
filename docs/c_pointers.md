@@ -79,3 +79,21 @@ int *p = &a[0];
 
 p+3 // is really p + 3*sizeof(int)
 ```
+
+## Fetch pointer and increment it
+
+A common operation is to fetch the value of a pointer, then move it by incrementing it.  
+A compact way to do it is `*p++`
+
+```c
+void movePointer(char *p) {
+
+  char i;
+
+  // i take the current value of p, then p is moved to its next value. Since a char* is terminated by \0, the loop stop at the end of the pointer.
+  while(i = *p++) {
+    printf("%c", i);
+  }
+  
+}
+```
