@@ -1,16 +1,17 @@
-# String.h
+# C string
+
+String do not exist in c. It's instead represented as succession of char terminated by the null character `\0`.
+
+There is two ways to represent string:
+
+- a pointer to a string literal: the string cannot be modified
+- an array of char: each char can be manipulated like in an array
 
 ```c
-#include <string.h>
-```
+// using an array
+char str[] = "boo"; // string literal is converted to an array and add the null char
+char str[] = {'b', 'o', 'o', '\0'}; // equivalent
 
-## strlen
-
-Return the size `size_t` of a string, excluding the `\0`.
-
-```c
-char word[20] = "hello there";
-
-printf("Length of string word = %zu \n", strlen(word)); // %zu print a size_t
-
+// using a pointer
+char *str = "boo";
 ```

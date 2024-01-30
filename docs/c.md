@@ -11,7 +11,7 @@
 - [Static keyword](c_static_keyword.md)
 - [Arrays](c_arrays.md)
 - [Pointers](c_pointers.md)
-- [String](c_string.h.md)
+- [String](c_string.md)
 
 ## Library
 
