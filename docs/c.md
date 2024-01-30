@@ -11,11 +11,12 @@
 - [Static keyword](c_static_keyword.md)
 - [Arrays](c_arrays.md)
 - [Pointers](c_pointers.md)
+- [String](c_string.h.md)
 
 ## Library
 
 - [stdio.h](C_stdio.md)
-- [string.h](c_string.md)
+- [string.h](c_string.h.md)
 
 ## Debugging
  
