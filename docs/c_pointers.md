@@ -6,7 +6,7 @@ The unary operator `&` gives the address of an object.
 ```c
 int x = 1, y = 2, z[10];
 
-int *ip;          // ip is a pointer to int
+int *ip;          // ip is a pointer to an int
 
 ip = &x;          // ip now points to x
 
@@ -14,7 +14,7 @@ y = *ip;          // y is now 1
 
 *ip = 0;          // x is now 0
 
-ip = &z;[0];      // ip now points to z[0]
+ip = &z[0];      // ip now points to z[0]
 ```
 
 If a pointer p points to x, it can occurs whenever x would be used
@@ -41,6 +41,7 @@ void swap(int *px, int *py) {
 }
 
 // call it with the reference of the objects
+int a = 1, b = 2;
 swap(&a, &b);
 ```
 
@@ -96,4 +97,13 @@ void movePointer(char *p) {
   }
   
 }
+```
+
+## Array of pointers
+
+```c
+// create an array of int*
+int a=1, b=2, c=3;
+int *str[&a, &b, &c];
+int d = *str[1]
 ```
