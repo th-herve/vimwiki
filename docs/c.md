@@ -9,9 +9,13 @@
 - [Enumeration](c_enumeration.md)
 - [Literals](c_literals.md)
 - [Static keyword](c_static_keyword.md)
-- [Arrays](c_arrays.md)
-- [Pointers](c_pointers.md)
 - [String](c_string.md)
+- [Arrays](c_arrays.md)
+
+## Pointers
+
+- [Pointers](c_pointers.md)
+- [Pointer arithmetic examples](C_pointer_arithmetic.md)
 
 ## Library
 
