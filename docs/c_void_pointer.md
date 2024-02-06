@@ -68,3 +68,5 @@ int a = 2;
 // 'test' is casted to int(*)(void*) to match the expected function pointer type
 time_function( int(*)(void*)test, (void*)&a)
 ```
+> `!!` `int (*cb)(void*)` != `int *cb(void*)` the first is a pointer to a function that return an int, the second is a function that return a int*
+
