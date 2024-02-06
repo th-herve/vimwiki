@@ -1,9 +1,9 @@
 # Git and git hub
 
-# participate on git hub
+## Git and github workflow with open source project
 
 1. Clone the repo
-    * On git hub, forked the repo, click code and copy the url (https or ssh)
+    * On git hub, fork the repo, click code and copy the url (https or ssh)
     * In terminal: go to the directory you want to clone in, cmd:
     ```bash
      git clone url
