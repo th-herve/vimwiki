@@ -27,3 +27,4 @@ printf("num = %d\n", num);
 | %g               | Shorter of %f and %e    | printf("%g", 123.45);    |
 | %G               | Shorter of %f and %E    | printf("%G", 123.45);    |
 | %%               | Literal %               | printf("%%");            |
+
