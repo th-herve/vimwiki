@@ -34,6 +34,7 @@ myArray.length
 
 ## 2D array
 
+{% raw %}
 ```java
 // creating 
 int[][] nums;
@@ -44,4 +45,4 @@ int[][] = new int[2][3];
 
 // accessing
 nums[1][3];
-```
+{% endraw %}
