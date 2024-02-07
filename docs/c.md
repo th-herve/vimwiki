@@ -18,6 +18,7 @@
 - [Pointers and array](c_pointers_and_arrays.md)
 - [Pointers and functions](c_pointers_and_functions.md)
 - [Pointer arithmetic examples](C_pointer_arithmetic.md)
+- [Function pointer](c_function_pointer.md)
 - [Void pointer](c_void_pointer.md)
 
 ## Library
