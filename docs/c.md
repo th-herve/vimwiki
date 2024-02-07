@@ -10,7 +10,11 @@
 - [Literals](c_literals.md)
 - [Static keyword](c_static_keyword.md)
 - [String](c_string.md)
+
+## Arrays
+
 - [Arrays](c_arrays.md)
+- [Array initialization](c_array_initialization.md)
 
 ## Pointers
 
