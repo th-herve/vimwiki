@@ -12,7 +12,7 @@ struct car
   
 };
 // or to use only car when refering to it
-typef struct {
+typdef struct {
   int year;
   //...
 } car;
