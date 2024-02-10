@@ -37,3 +37,4 @@
 ## Others
 
 - [Escape sequences](c_escape_sequences.md)
+- [Reading complex declaration](c_complex_declaration.md)

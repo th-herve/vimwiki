@@ -34,7 +34,7 @@ Or with using a macro:
 int num[] = { x32, x8, x4, x1}; // 32+8+4+1= 45 value set to 2
 ```
 
-## Initalization with enum indices
+%% ## Initalization with enum indices
 
 ```c
 enum Fruit_t {
