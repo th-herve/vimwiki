@@ -81,6 +81,8 @@ Place the flag after the second `/`: /expression/flag
 
 - (?:expression): denote a non-capturing group
 
+> In nvim, group by escaping the parentheses `\(group\)`, use the group with `\1 \2 ...`
+> Example: %/s/'\(a\)'/\1/g -> replace `'a'` with just `a`
 
 ## Alternation
 
