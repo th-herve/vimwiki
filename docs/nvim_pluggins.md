@@ -8,3 +8,4 @@
 - [Vim fugitive](nvim_git_fugitive)
 - [Vim telescope](nvim_telescope)
 - [Emmet code snippet](nvim_emmet)
+- [Vimwiki](vimwiki)
