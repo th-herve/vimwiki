@@ -43,20 +43,3 @@ INTO slitherin
 FROM student
 WHERE house = slitherin;
 ```
-
-## Create table from another one
-
-Use `CREATE TABLE AS SELECT` or `SELECT INTO`
-
-```sql
-CREATE TABLE slitherin
-AS SELECT *
-FROM student
-WHERE house = slitherin;
-
-SELECT *
-INTO slitherin
-FROM student
-WHERE house = slitherin;
-```
-
