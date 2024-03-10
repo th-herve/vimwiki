@@ -24,6 +24,7 @@
 - [Nvim](nvim)
 - [Markdown](markdown)
 - [Git](git)
+- [Docker](docker.md)
 - [Tmux](tmux)
 - [Qtile](qtile)
 - [Dwm](dwm_custom_keybind.md)
