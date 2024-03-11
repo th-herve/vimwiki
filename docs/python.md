@@ -15,3 +15,4 @@
  
 - [Virtual env](python_virtual_env)
 - [Debubg with pdb](python_pdb_debugger.md)
+- [Dataclasses](python_dataclasses.md)
