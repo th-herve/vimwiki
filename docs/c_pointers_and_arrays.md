@@ -11,9 +11,9 @@ int *pa;
 pa = &a[0]; // pa points to the first element of a
 pa = a // yield the same result
 
-x = *pa; // set x to a[0]
+int x = *pa; // set x to a[0]
 
-y = *(pa+1) // set y to a[1]
+int y = *(pa+1) // set y to a[1]
 ```
 
 ## Pointers arithmetic
