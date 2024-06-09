@@ -15,14 +15,16 @@ Run :Git or :G followed by a git command
 
 ## Custom keybind
 
-| keybind (normal mod) | action           |
-|----------------------|------------------|
-| gs                   | status           |
-| gaw                  | add current file |
-| ga.                  | add all          |
-| gcm                  | commit with msg  |
-| gc                   | commit buffer    |
-| gp                   | push             |
+| keybind (normal mod) | action                      |
+|----------------------|-----------------------------|
+| ld gs                | status                      |
+| ld gaw               | add current file            |
+| ld ga.               | add all                     |
+| ld gcm               | commit with msg             |
+| ld gc                | commit buffer               |
+| ld gp                | push                        |
+| ld gd                | see diff for merge conflict |
+| ld gd                | see diff for merge conflict |
 
 ## Resolve merge conflict
 

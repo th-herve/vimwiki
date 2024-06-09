@@ -1,6 +1,5 @@
 # Sql functions
 
-
 ## Date
 
 ### GETDATE()

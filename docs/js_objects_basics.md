@@ -1,4 +1,4 @@
-# Javascript objects basics
+# Javascript objects basiccs
 
 ## Create an object
 

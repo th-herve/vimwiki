@@ -8,7 +8,7 @@ CREATE TABLE <table name> (
   foreign_id INTEGER
   <column name> <data type>,
   PRIMARY KEY (id),
-  FOREIGN KEY (foreign_id) REFERENCES foreign_table(id);
+  FOREIGN KEY (foreign_id) REFERENCES foreign_table(id)
 );
 ```
 Typing primary key (id), allow to create and increment automatically the id each new entry
@@ -22,7 +22,7 @@ CREATE TABLE students (
   age INTEGER,
   house_id INTEGER,
   PRIMARY KEY (id),
-  FOREIGN KEY (house_id) REFERENCES houses (id);
+  FOREIGN KEY (house_id) REFERENCES houses (id)
 );
 ```
 

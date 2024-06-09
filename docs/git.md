@@ -1,5 +1,8 @@
 # Git
 
+- [theory](git_theory.md)
+- [config](git_config.md)
+
 ## Basics
 
 - [Github](github)
@@ -13,10 +16,7 @@
 - [Add part of a file](git_add_part_file)
 - [Copying a File from One Git Branch to Another](git_copy_file_between_branches.md)
 - [Git reset](git_reset.md)
-
-## Change history
-
-- [Change last commit](git_amend_change_last_commit.md.md)
+- [Git squash](git_reset#Squashing commit with git reset)
 - [Git rebase](git_rebase.md) TODO
 - [Git cherry pick](git_cherry_pick.md)
 - [Git fix file too large to push](git_fix_file_too_large.md)

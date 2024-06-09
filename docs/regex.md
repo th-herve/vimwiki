@@ -16,6 +16,8 @@ Place the flag after the second `/`: /expression/flag
 
 > string used in example: bar bor. boo bir 
 
+- `[]` is a character class. It always match `one` character.
+
 | key      | action                 | example    | output           | case sensitive |
 |----------|------------------------|------------|------------------|----------------|
 | .        | select all !char!      | /./g       | bar bor. boo bir |                |
@@ -26,22 +28,24 @@ Place the flag after the second `/`: /expression/flag
 | [a-z0-9] | number or letter range |            |                  |                |
 | \        | escape character       | / \./g     | .                |                |
 
-
-| key | action                              | example   | output                                                     |
-|-----|-------------------------------------|-----------|------------------------------------------------------------|
-| ^   | select matching start of line       | /^[0-9]/g | select all digit at the start of a line                    |
-| $   | select matching end of line         | /html$/g  | select all html expr that are in the end of a line         |
-| \w  | select letter,number and underscore | / \w /g   | a b 1 2 _ ...                                              |
-| \W  | except letter,number and underscore | / \w /g   | . : ! ? ...  (space too)                                   |
-| \d  | select only digit                   | / \d /g   | 1 2 ...                                                    |
-| \D  | except digit                        | / \D /g   | a b ...                                                    |
-| \s  | only space                          | / \s /g   | ' '                                                        |
-| \S  | except space                        | / \S /g   | you get it                                                 |
-| \b  | is boundary                         | / \b. /g  | select what followed (here .) if it's at the beginning     |
-| \B  | is boundary                         | / \b. /g  | select what followed (here .) if it's NOT at the beginning |
+> `Note`: to match `-` as a character instead the bracket, put it in first or last (the order does not matter): [-a-z] match - and a to z
 
 
-## Repetition
+| key | action                              | example    | output                                                       |
+|-----|-------------------------------------|------------|--------------------------------------------------------------|
+| ^   | select matching start of line       | /^[0-9]/g  | select all digit at the start of a line                      |
+| $   | select matching end of line         | /html$/g   | select all html expr that are in the end of a line           |
+| \w  | select letter,number and underscore | / \w /g    | a b 1 2 _ ...                                                |
+| \W  | except letter,number and underscore | / \w /g    | . : ! ? ...  (space too)                                     |
+| \d  | select only digit                   | / \d /g    | 1 2 ...                                                      |
+| \D  | except digit                        | / \D /g    | a b ...                                                      |
+| \s  | only space                          | / \s /g    | ' '                                                          |
+| \S  | except space                        | / \S /g    | you get it                                                   |
+| \b  | is boundary                         | / \bvim /g | select vim alone but not vim in neovim                       |
+| \B  | is not boundary                     | / \Bvim /g | select vim in neovim but not just vim                        |
+
+
+## Quantifiers
 
 
 - `Asterisk *`: after a character, indicate that this character may either: not appear at all, or appear once or more side by side.
@@ -51,6 +55,8 @@ Place the flag after the second `/`: /expression/flag
 |-------------|---------|-------------|
 | br ber beer | /be*r/g | br ber beer |
 | br ber beer | /be+r/g | ber beer    |
+
+`*` and `+` are greedy quantifiers. To make them non greedy use a `?` after them : `.*?`
 
 - `Question mark ?`: after a char, indicate that it is optional.
 
@@ -121,3 +127,28 @@ If we want to select text, depending on the 'look' word:
 |----------|------------------|-----------------|
 | positive | \(look\)\@<=text | \(look\)\@=text |
 | negative | \(look\)\@<!text | \(look\)\@!text |
+
+## Other
+
+### Usage with grep
+
+Use `-P` use perl regex style.
+
+```bash
+grep -P "regexhere \d+" file.txt
+```
+
+### Vim 
+
+Use `\v` before the regex to use perl regex style.
+
+```regex
+/\v\d+
+```
+
+For `\b` word boundary use `<` and `>` :
+```regex
+/\v<vim>
+```
+
+The non greedy equivalent of `*` and `+` are : `{-}` and `{-1,}`
