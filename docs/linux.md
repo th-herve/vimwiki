@@ -26,3 +26,7 @@
 - [Aur](arch_aur.md)
 
 - [File system](linux_file_system.md)
+ 
+## Nix
+
+- [Set up](nix_setup.md)
