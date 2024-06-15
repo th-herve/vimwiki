@@ -18,6 +18,7 @@
 - [sc-im](sc-im_tabler.md)
 - [scan and print](linux_scan_print.md)
 - [Pdf and image manipulation](linux_pdf_image_manipulation.md)
+- [tar](tar.md)
 
 ## Arch 
 
