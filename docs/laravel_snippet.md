@@ -34,3 +34,17 @@ Otherwise a new query would be executed when accessing info on the employer (laz
 $jobs = Job::with('employer')->get();
 ```
 >Note: lazy loading can be disabled
+
+## Display form validation error (blade)
+
+Use the `@error` directive, with the id/name of the input.
+
+```html
+<input id='last-name' name='last-name' >
+
+@error('last-name')
+<p class="text-xs text-red-500 font-semibold">
+  {{ $message }}
+</p>
+@enderror
+```
