@@ -119,7 +119,7 @@ const result = array.every(item => {
 ## array.find()
 
 ```javascript
-const result = array.find(item => array.name === "myName");
+const result = array_name.find(item => item.name === "myName");
 ```
 
 ## array.findIndex()
