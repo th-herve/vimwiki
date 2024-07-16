@@ -27,6 +27,12 @@ Debugging with GDB (GNU Debugger) is an essential tool for finding and fixing er
 - `backtrace`: Show the current call stack.
 - `info [args]`: Display various types of information, such as info breakpoints, info functions, info locals, and more.
 
+## Print file's code
+
+- `frame`: (or f) show current line (with argument, changes the frame)
+- `list [optional line]`: (or l) Show 10 lines of the code starting at the optional line (also works with list 1,10 to list lines 1 through 10).
+
+
 ## Data Manipulation
 
 - `print [expression]`: Evaluate the specified expression and print its value.
@@ -35,7 +41,6 @@ Debugging with GDB (GNU Debugger) is an essential tool for finding and fixing er
 
 ## Miscellaneous Commands
 
-- `list [optional line]`: Show 10 lines of the code starting at the optional line (also works with list 1,10 to list lines 1 through 10).
 - `watch [expression]`: Set a watchpoint on the specified expression, so that gdb will break whenever that expression is modified.
 - `finish`: Run the program until the current function returns.
 - `set print pretty on`: Enable pretty-printing for complex data structures.

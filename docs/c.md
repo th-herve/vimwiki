@@ -36,7 +36,7 @@
 
 ## Debugging
  
-- [Gcc](gcc)
+- [GDB](c_gdb_debug)
 
 ## Others
 
