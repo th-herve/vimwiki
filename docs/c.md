@@ -29,6 +29,10 @@
 - [Function pointer](c_function_pointer.md)
 - [Void pointer](c_void_pointer.md)
 
+## Design patterns
+
+- [Opaque pointers](c_opaque_pointers)
+
 ## Library
 
 - [stdio.h](C_stdio.md)
