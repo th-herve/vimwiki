@@ -128,6 +128,13 @@ If we want to select text, depending on the 'look' word:
 | positive | \(look\)\@<=text | \(look\)\@=text |
 | negative | \(look\)\@<!text | \(look\)\@!text |
 
+A simpler version in nvim is to use `\zs` for positive lookbehind and `\ze` for positive lookahead (there is no negative version).
+T
+
+|          | Lookbehind       | lookahead       |
+|----------|------------------|-----------------|
+| positive | look\zstext      | text\zelook     |
+
 ## Other
 
 ### Usage with grep
