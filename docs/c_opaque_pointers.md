@@ -6,7 +6,7 @@ In C an opaque pointers allow to use a struct, while hidding its implementation 
 
 ```c 
 // car.h
-typdef struct myCar Car;
+typedef struct myCar Car;
 
 Car *createCar();
 void addWheels(Car *c);
@@ -14,7 +14,7 @@ void addWheels(Car *c);
 
 ```c
 // car.c
-typdef struct myCar {
+typedef struct myCar {
     int nbrWheels;
     char *color;
 } Car;
