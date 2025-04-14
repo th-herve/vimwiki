@@ -15,11 +15,14 @@
 - [Track bug with bisect](git_track_bug_bisect)
 - [Add part of a file](git_add_part_file)
 - [Copying a File from One Git Branch to Another](git_copy_file_between_branches.md)
-- [Git reset](git_reset.md)
-- [Git squash](git_reset#Squashing commit with git reset)
-- [Git rebase](git_rebase.md) TODO
-- [Git cherry pick](git_cherry_pick.md)
-- [Git fix file too large to push](git_fix_file_too_large.md)
+- [Reset](git_reset.md)
+- [Squash](git_reset#Squashing commit with git reset)
+- [Rebase](git_rebase.md) TODO
+- [Cherry pick](git_cherry_pick.md)
+- [Fix file too large to push](git_fix_file_too_large.md)
+- [Add a file to a past commit](git_add_file_to_past_commit.md)
+- [See two branch at once](git_see_two_branch_at_once.md)
+- [Worktree](git_worktree.md)
  
 ## Other
 
